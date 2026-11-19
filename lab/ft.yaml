@@ -1,0 +1,22 @@
+seed: 0
+train.compile_model: false
+train.compile_loss: false
+train.ckpt_per_epoch: 1
+train.restart: true
+train.schedule: []
+train.use_backprop_checkpoints: true
+train.dataset.path: data/OpenVidHD/sub64/description.json
+train.dataset.patch_size: [256, 256]
+train.dataset.desired_length: 2000
+train.dataset.target_resolution: 360
+train.dataset.resampling_method: "bilinear/0.15 box/0.15 bicubic/0.35 lanczos/0.35"
+train.dataset.max_frame_distance: 1
+train.dataset.n_frames: 4
+train.dataset.n_workers: 4
+train.learning_rate: 1.e-5
+train.bpp_loss_weight: 1.
+train.cascade: true
+train.distortion_weights: [0.52, 1.33, 0.83]
+train.i_frame_dropout: 0.5
+model.p_frame.ckpt_path: pretrained/mlvc-psnr-v1.ckpt
+benchmark_test: {}
