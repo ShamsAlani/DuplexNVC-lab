@@ -210,3 +210,6 @@ both at epoch 138  11/19/2026 22:02:28
 control FAILED at 140
 b1 FAILED at 140
 both at epoch 140  11/19/2026 22:03:24
+control FAILED at 142
+b1 FAILED at 142
+both at epoch 142  11/19/2026 22:04:19
