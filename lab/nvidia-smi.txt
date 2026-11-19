@@ -1,0 +1,27 @@
+Thu Nov 19 20:31:46 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 3060 Ti   WDDM  |   00000000:02:00.0  On |                  N/A |
+|  0%   43C    P8              9W /  200W |     479MiB /   8192MiB |      1%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A      1868    C+G   ....Search_cw5n1h2txyewy\SearchApp.exe      N/A      |
+|    0   N/A  N/A     11756    C+G   ...CBS_cw5n1h2txyewy\TextInputHost.exe      N/A      |
+|    0   N/A  N/A     15348    C+G   ...crosoft\Edge\Application\msedge.exe      N/A      |
+|    0   N/A  N/A     16896    C+G   ...on\157.0.4341.60\msedgewebview2.exe      N/A      |
+|    0   N/A  N/A     17016    C+G   C:\Windows\explorer.exe                     N/A      |
+|    0   N/A  N/A     19440    C+G   ....Search_cw5n1h2txyewy\SearchApp.exe      N/A      |
+|    0   N/A  N/A     20044    C+G   ...crosoft\Edge\Application\msedge.exe      N/A      |
+|    0   N/A  N/A     21728    C+G   ...5n1h2txyewy\ShellExperienceHost.exe      N/A      |
++-----------------------------------------------------------------------------------------+
