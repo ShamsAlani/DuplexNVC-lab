@@ -63,3 +63,6 @@ both at epoch 40  11/19/2026 21:16:26
 control FAILED at 42
 b1 FAILED at 42
 both at epoch 42  11/19/2026 21:17:24
+control FAILED at 44
+b1 FAILED at 44
+both at epoch 44  11/19/2026 21:18:20
