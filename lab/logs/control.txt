@@ -1,741 +1,3 @@
-2026-11-19 20:57:40,201 P17944 I: Module Name: temporal_prior_encoder.conv.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: y_spatial_prior.conv.0.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: y_spatial_prior.conv.1.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: decoder.conv1.0.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: decoder.conv1.1.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: decoder.conv1.2.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: recon_generation_net.conv.0.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: recon_generation_net.conv.1.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: recon_generation_net.conv.2.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: recon_generation_net.conv.3.dc.2, Total Parameters: 2560
-2026-11-19 20:57:40,201 P17944 I: Module Name: feature_adaptor_i.conv.dc.2, Total Parameters: 2304
-2026-11-19 20:57:40,201 P17944 I: Module Name: hyper_encoder.conv.0.dc.2, Total Parameters: 1280
-2026-11-19 20:57:40,201 P17944 I: Module Name: hyper_encoder.conv.1.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:57:40,201 P17944 I: Module Name: hyper_encoder.conv.2.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:57:40,201 P17944 I: Module Name: hyper_encoder.conv.3.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:57:40,201 P17944 I: Module Name: hyper_decoder.conv.0.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:57:40,201 P17944 I: Module Name: hyper_decoder.conv.1.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:57:40,201 P17944 I: Module Name: hyper_decoder.conv.2.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:57:40,201 P17944 I: Module Name: hyper_decoder.conv.3.dc.2, Total Parameters: 1280
-2026-11-19 20:57:40,201 P17944 I: Module Name: feature_adaptor_i.conv, Total Parameters: 2
-2026-11-19 20:57:40,201 P17944 I: Module Name: feature_extractor.conv1.0, Total Parameters: 2
-2026-11-19 20:57:40,201 P17944 I: Module Name: feature_extractor.conv1.1, Total Parameters: 2
-2026-11-19 20:57:40,201 P17944 I: Module Name: feature_extractor.conv2.0, Total Parameters: 2
-2026-11-19 20:57:40,201 P17944 I: Module Name: feature_extractor.conv2.1, Total Parameters: 2
-2026-11-19 20:57:40,201 P17944 I: Module Name: feature_extractor.conv2.2, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: feature_extractor.conv2.3, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: encoder.conv2.0, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: encoder.conv2.1, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: encoder.conv3, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: hyper_encoder.conv.0, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: hyper_encoder.conv.1.conv, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: hyper_encoder.conv.2.conv, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: hyper_encoder.conv.3.conv, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: hyper_decoder.conv.0.conv, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: hyper_decoder.conv.1.conv, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: hyper_decoder.conv.2.conv, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: hyper_decoder.conv.3, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: temporal_prior_encoder.conv, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: y_prior_fusion.conv.0, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: y_prior_fusion.conv.1, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: y_prior_fusion.conv.2, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: y_spatial_prior.conv.0, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: y_spatial_prior.conv.1, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: decoder.conv1.0, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: decoder.conv1.1, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: decoder.conv1.2, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: recon_generation_net.conv.0, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: recon_generation_net.conv.1, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: recon_generation_net.conv.2, Total Parameters: 2
-2026-11-19 20:57:40,202 P17944 I: Module Name: recon_generation_net.conv.3, Total Parameters: 2
-2026-11-19 20:57:40,203 P17944 I: Total parameters: 18316286
-2026-11-19 20:57:40,281 P17944 I: pretrained weights loaded from C:/Users/deskESB036-4/mlvc/job-outputs/pretrained/mlvc-psnr-v1.ckpt
-2026-11-19 20:57:40,298 P17944 I: cuda: is_available() = True, device_count = 1
-2026-11-19 20:57:40,583 P17944 I: created train dataloader with batch_size = 2, n_workers = 4
-uv.exe : 2026-11-19 20:57:57,098 P17944 W: Unable to get AzureML/MLflow run context, not reporting metrics to AzureML
-At C:\Users\deskESB036-4\Downloads\lab.ps1:55 char:16
-+ function Uvr { & uv run --no-sync @args }
-+                ~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2026-11-19 20:5...rics to AzureML:String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
-2026-11-19 20:57:57,098 P17944 E: Exception in main:
-Traceback (most recent call last):
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 141, in main
-    rc = self.run()
-         ^^^^^^^^^^
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1667, in run
-    self.train()
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1588, in train
-    self.train_one_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 929, in train_one_epoch
-    super().train_one_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1365, in train_one_epoch
-    self.prepare_for_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 549, in prepare_for_epoch
-    self._check_flat_parameters_support(config)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 788, in _check_flat_parameters_support
-    raise ValueError(f"train.flat_parameters does not support {', '.join(names)}")
-ValueError: train.flat_parameters does not support train.compile_model: false
-[control] crashed (try 1) 11/19/2026 20:57:57
-2026-11-19 20:58:01,964 P21612 I: Running with config: {'log_dir': 'logs', 'torch': None, 'cuda': {'cudnn_benchmark': True}, 'model': {'i_frame': {'type': 'DMCI-6.0', 'N': 256, 'z_channel': 128, 'yuv420': True, 'ckpt_path': 'pretrained/DMCI-6.0.pth.tar'}, 'p_frame': {'type': 'DMC-6.1sb', 'yuv420': True, 'activation': 'LeakyReLU', 'input_offset': -0.5, 'feature_channels': 128, 'spatial_prior_channels': 256, 'memory_activation': 'identity', 'zero_init_residual': True, 'chunk_mode': 'gated', 'ffn_gate_activation': 'ReLU1', 'chain_feature_adaptors': True, 'ckpt_path': 'pretrained/mlvc-psnr-v1.ckpt'}, 'auxiliary': {'path': 'pretrained/', 'config': {'deqa_score': {'ckpt_name': 'DeQA-Score-Mix3'}}}, 'ckpt_path': None}, 'train': {'flat_parameters': True, 'use_backprop_checkpoints': True, 'n_epoch': 2, 'ckpt_per_epoch': 1, 'restart': True, 'dataset': {'path': 'data/OpenVidHD/sub64/description.json', 'patch_size': [256, 256], 'desired_length': 2000, 'target_resolution': 360, 'resampling_method': 'bilinear/0.15 box/0.15 bicubic/0.35 lanczos/0.35', 'max_frame_distance': 1, 'random_flip': True, 'n_workers': 4, 'n_frames': 4, 'batch_size': 1, 'brightness_aug': {'enabled': False, 'alpha_min': 1.0, 'alpha_max': 1.0, 'beta_min': 0.0, 'beta_max': 0.0, 'only_y_channel': True}}, 'learning_rate': 1e-05, 'grad_max_norm': 0.2, 'frame_grad_max_norm': 1.0, 'loss_lambdas': [1, 768], 'loss_type': 'total_rdc_psnr', 'bpp_loss_weight': 1.0, 'clear_grad_for_y_q': True, 'cascade': True, 'random_rate': True, 'transfer_weights': 'none', 'distortion_weights': [0.52, 1.33, 0.83], 'step_metric_frequency': 5, 'i_frame_dropout': 0.5, 'schedule': [], 'compile_model': False, 'compile_loss': False}, 'benchmark_test': {}, 'config': 'C:\\Users\\deskESB036-4\\mlvc\\code\\video\\configs\\train_video-mlvc.yaml', 'data_mount': 'C:\\Users\\deskESB036-4\\mlvc', 'checkpoints_mount': 'C:\\Users\\deskESB036-4\\mlvc\\job-outputs', 'aux_mounts': {}, 'seed': 0, 'mode': 'train', 'distributed_backend': None, 'distributed_timeout_minutes': None, 'reraise_exceptions': False, 'save_dir': 'checkpoints/control'}
-2026-11-19 20:58:01,991 P21612 I: Setting torch.backends.cudnn.benchmark = True
-2026-11-19 20:58:01,992 P21612 I: Setting torch._logging.set_logs from torch.logs='recompiles'
-2026-11-19 20:58:01,993 P21612 I: Setting random seed to 0
-2026-11-19 20:58:02,158 P21612 I: Module Name: decoder.up.conv.0, Total Parameters: 1180672
-2026-11-19 20:58:02,158 P21612 I: Module Name: y_prior_fusion.conv.0.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:02,158 P21612 I: Module Name: y_prior_fusion.conv.1.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:02,158 P21612 I: Module Name: y_prior_fusion.conv.2.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:02,158 P21612 I: Module Name: y_prior_fusion.conv.0.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:02,158 P21612 I: Module Name: y_prior_fusion.conv.1.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:02,158 P21612 I: Module Name: y_prior_fusion.conv.2.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:02,158 P21612 I: Module Name: encoder.down, Total Parameters: 295040
-2026-11-19 20:58:02,158 P21612 I: Module Name: feature_extractor.conv1.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,158 P21612 I: Module Name: feature_extractor.conv1.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,158 P21612 I: Module Name: feature_extractor.conv2.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,158 P21612 I: Module Name: feature_extractor.conv2.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,158 P21612 I: Module Name: feature_extractor.conv2.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,158 P21612 I: Module Name: feature_extractor.conv2.3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: encoder.conv2.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: encoder.conv2.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: encoder.conv3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: temporal_prior_encoder.conv.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: y_spatial_prior.conv.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: y_spatial_prior.conv.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: decoder.conv1.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: decoder.conv1.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: decoder.conv1.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: recon_generation_net.conv.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: recon_generation_net.conv.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: recon_generation_net.conv.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: recon_generation_net.conv.3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:02,159 P21612 I: Module Name: temporal_prior_encoder.down, Total Parameters: 262400
-2026-11-19 20:58:02,159 P21612 I: Module Name: feature_adaptor_i.conv.ffn.0, Total Parameters: 262144
-2026-11-19 20:58:02,159 P21612 I: Module Name: y_prior_fusion.conv.0.dc.0, Total Parameters: 147840
-2026-11-19 20:58:02,159 P21612 I: Module Name: y_prior_fusion.conv.0.dc.3, Total Parameters: 147840
-2026-11-19 20:58:02,159 P21612 I: Module Name: y_prior_fusion.conv.1.dc.0, Total Parameters: 147840
-2026-11-19 20:58:02,159 P21612 I: Module Name: y_prior_fusion.conv.1.dc.3, Total Parameters: 147840
-2026-11-19 20:58:02,159 P21612 I: Module Name: y_prior_fusion.conv.2.dc.0, Total Parameters: 147840
-2026-11-19 20:58:02,159 P21612 I: Module Name: y_prior_fusion.conv.2.dc.3, Total Parameters: 147840
-2026-11-19 20:58:02,159 P21612 I: Module Name: feature_extractor.conv1.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: feature_extractor.conv1.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: feature_extractor.conv2.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: feature_extractor.conv2.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: feature_extractor.conv2.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: feature_extractor.conv2.3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: encoder.conv2.0.adaptor, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: encoder.conv2.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: encoder.conv2.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: encoder.conv3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,159 P21612 I: Module Name: temporal_prior_encoder.conv.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: y_spatial_prior.conv.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: y_spatial_prior.conv.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: decoder.conv1.0.adaptor, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: decoder.conv1.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: decoder.conv1.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: decoder.conv1.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: recon_generation_net.conv.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: recon_generation_net.conv.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: recon_generation_net.conv.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: recon_generation_net.conv.3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_adaptor_i.conv.ffn.2, Total Parameters: 131072
-2026-11-19 20:58:02,160 P21612 I: Module Name: decoder.conv2, Total Parameters: 98688
-2026-11-19 20:58:02,160 P21612 I: Module Name: y_prior_fusion.conv.3, Total Parameters: 98560
-2026-11-19 20:58:02,160 P21612 I: Module Name: y_spatial_prior.conv.0.adaptor, Total Parameters: 98560
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_encoder.conv.0.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_encoder.conv.1.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_encoder.conv.2.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_encoder.conv.3.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_decoder.conv.0.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_decoder.conv.0.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_decoder.conv.1.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_decoder.conv.1.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_decoder.conv.2.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_decoder.conv.2.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: hyper_decoder.conv.3.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv1.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv1.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv1.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv1.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv2.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv2.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv2.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv2.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,160 P21612 I: Module Name: feature_extractor.conv2.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: feature_extractor.conv2.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: feature_extractor.conv2.3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: feature_extractor.conv2.3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: encoder.conv2.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: encoder.conv2.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: encoder.conv2.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: encoder.conv2.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: encoder.conv3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: encoder.conv3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: temporal_prior_encoder.conv.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: temporal_prior_encoder.conv.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: y_spatial_prior.conv.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: y_spatial_prior.conv.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: y_spatial_prior.conv.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: y_spatial_prior.conv.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: decoder.conv1.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: decoder.conv1.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: decoder.conv1.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: decoder.conv1.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: decoder.conv1.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: decoder.conv1.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: recon_generation_net.conv.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: recon_generation_net.conv.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: recon_generation_net.conv.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: recon_generation_net.conv.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: recon_generation_net.conv.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: recon_generation_net.conv.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: recon_generation_net.conv.3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: recon_generation_net.conv.3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:02,161 P21612 I: Module Name: hyper_encoder.conv.1.down, Total Parameters: 65664
-2026-11-19 20:58:02,161 P21612 I: Module Name: hyper_encoder.conv.2.down, Total Parameters: 65664
-2026-11-19 20:58:02,161 P21612 I: Module Name: hyper_encoder.conv.3.down, Total Parameters: 65664
-2026-11-19 20:58:02,161 P21612 I: Module Name: feature_adaptor_i.conv.dc.0, Total Parameters: 65536
-2026-11-19 20:58:02,161 P21612 I: Module Name: feature_adaptor_i.conv.dc.3, Total Parameters: 65536
-2026-11-19 20:58:02,162 P21612 I: Module Name: , Total Parameters: 64512
-2026-11-19 20:58:02,162 P21612 I: Module Name: encoder.conv1, Total Parameters: 49408
-2026-11-19 20:58:02,162 P21612 I: Module Name: recon_generation_net.head, Total Parameters: 49344
-2026-11-19 20:58:02,162 P21612 I: Module Name: feature_adaptor_i.conv.adaptor, Total Parameters: 49152
-2026-11-19 20:58:02,162 P21612 I: Module Name: feature_extractor.conv1.0.adaptor, Total Parameters: 33024
-2026-11-19 20:58:02,162 P21612 I: Module Name: recon_generation_net.conv.0.adaptor, Total Parameters: 33024
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.0.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.1.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.2.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.3.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.0.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.1.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.2.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.3.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: y_spatial_prior.conv.2, Total Parameters: 32896
-2026-11-19 20:58:02,162 P21612 I: Module Name: bit_estimator_z.f1, Total Parameters: 27648
-2026-11-19 20:58:02,162 P21612 I: Module Name: bit_estimator_z.f2, Total Parameters: 27648
-2026-11-19 20:58:02,162 P21612 I: Module Name: bit_estimator_z.f3, Total Parameters: 27648
-2026-11-19 20:58:02,162 P21612 I: Module Name: bit_estimator_z.f4, Total Parameters: 18432
-2026-11-19 20:58:02,162 P21612 I: Module Name: feature_adaptor_p.conv, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.0.dc.0, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.0.dc.3, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.1.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.1.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.2.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.2.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.3.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_encoder.conv.3.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.0.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.0.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.1.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.1.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.2.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.2.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:02,162 P21612 I: Module Name: hyper_decoder.conv.3.dc.0, Total Parameters: 16512
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_decoder.conv.3.dc.3, Total Parameters: 16512
-2026-11-19 20:58:02,163 P21612 I: Module Name: y_prior_fusion.conv.0.dc.2, Total Parameters: 3840
-2026-11-19 20:58:02,163 P21612 I: Module Name: y_prior_fusion.conv.1.dc.2, Total Parameters: 3840
-2026-11-19 20:58:02,163 P21612 I: Module Name: y_prior_fusion.conv.2.dc.2, Total Parameters: 3840
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_extractor.conv1.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_extractor.conv1.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_extractor.conv2.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_extractor.conv2.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_extractor.conv2.2.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_extractor.conv2.3.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: encoder.conv2.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: encoder.conv2.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: encoder.conv3.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: temporal_prior_encoder.conv.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: y_spatial_prior.conv.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: y_spatial_prior.conv.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: decoder.conv1.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: decoder.conv1.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: decoder.conv1.2.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: recon_generation_net.conv.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: recon_generation_net.conv.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: recon_generation_net.conv.2.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: recon_generation_net.conv.3.dc.2, Total Parameters: 2560
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_adaptor_i.conv.dc.2, Total Parameters: 2304
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_encoder.conv.0.dc.2, Total Parameters: 1280
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_encoder.conv.1.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_encoder.conv.2.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_encoder.conv.3.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_decoder.conv.0.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_decoder.conv.1.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_decoder.conv.2.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:02,163 P21612 I: Module Name: hyper_decoder.conv.3.dc.2, Total Parameters: 1280
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_adaptor_i.conv, Total Parameters: 2
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_extractor.conv1.0, Total Parameters: 2
-2026-11-19 20:58:02,163 P21612 I: Module Name: feature_extractor.conv1.1, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: feature_extractor.conv2.0, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: feature_extractor.conv2.1, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: feature_extractor.conv2.2, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: feature_extractor.conv2.3, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: encoder.conv2.0, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: encoder.conv2.1, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: encoder.conv3, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: hyper_encoder.conv.0, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: hyper_encoder.conv.1.conv, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: hyper_encoder.conv.2.conv, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: hyper_encoder.conv.3.conv, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: hyper_decoder.conv.0.conv, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: hyper_decoder.conv.1.conv, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: hyper_decoder.conv.2.conv, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: hyper_decoder.conv.3, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: temporal_prior_encoder.conv, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: y_prior_fusion.conv.0, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: y_prior_fusion.conv.1, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: y_prior_fusion.conv.2, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: y_spatial_prior.conv.0, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: y_spatial_prior.conv.1, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: decoder.conv1.0, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: decoder.conv1.1, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: decoder.conv1.2, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: recon_generation_net.conv.0, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: recon_generation_net.conv.1, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: recon_generation_net.conv.2, Total Parameters: 2
-2026-11-19 20:58:02,164 P21612 I: Module Name: recon_generation_net.conv.3, Total Parameters: 2
-2026-11-19 20:58:02,165 P21612 I: Total parameters: 18316286
-2026-11-19 20:58:02,226 P21612 I: pretrained weights loaded from C:/Users/deskESB036-4/mlvc/job-outputs/pretrained/mlvc-psnr-v1.ckpt
-2026-11-19 20:58:02,242 P21612 I: cuda: is_available() = True, device_count = 1
-2026-11-19 20:58:02,437 P21612 I: created train dataloader with batch_size = 1, n_workers = 4
-uv.exe : 2026-11-19 20:58:04,017 P21612 W: Unable to get AzureML/MLflow run context, not reporting metrics to AzureML
-At C:\Users\deskESB036-4\Downloads\lab.ps1:55 char:16
-+ function Uvr { & uv run --no-sync @args }
-+                ~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2026-11-19 20:5...rics to AzureML:String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
-2026-11-19 20:58:04,018 P21612 E: Exception in main:
-Traceback (most recent call last):
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 141, in main
-    rc = self.run()
-         ^^^^^^^^^^
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1667, in run
-    self.train()
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1588, in train
-    self.train_one_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 929, in train_one_epoch
-    super().train_one_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1365, in train_one_epoch
-    self.prepare_for_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 549, in prepare_for_epoch
-    self._check_flat_parameters_support(config)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 788, in _check_flat_parameters_support
-    raise ValueError(f"train.flat_parameters does not support {', '.join(names)}")
-ValueError: train.flat_parameters does not support train.compile_model: false
-[control] crashed (try 2) 11/19/2026 20:58:04
-2026-11-19 20:58:08,728 P21064 I: Running with config: {'log_dir': 'logs', 'torch': None, 'cuda': {'cudnn_benchmark': True}, 'model': {'i_frame': {'type': 'DMCI-6.0', 'N': 256, 'z_channel': 128, 'yuv420': True, 'ckpt_path': 'pretrained/DMCI-6.0.pth.tar'}, 'p_frame': {'type': 'DMC-6.1sb', 'yuv420': True, 'activation': 'LeakyReLU', 'input_offset': -0.5, 'feature_channels': 128, 'spatial_prior_channels': 256, 'memory_activation': 'identity', 'zero_init_residual': True, 'chunk_mode': 'gated', 'ffn_gate_activation': 'ReLU1', 'chain_feature_adaptors': True, 'ckpt_path': 'pretrained/mlvc-psnr-v1.ckpt'}, 'auxiliary': {'path': 'pretrained/', 'config': {'deqa_score': {'ckpt_name': 'DeQA-Score-Mix3'}}}, 'ckpt_path': None}, 'train': {'flat_parameters': True, 'use_backprop_checkpoints': True, 'n_epoch': 2, 'ckpt_per_epoch': 1, 'restart': True, 'dataset': {'path': 'data/OpenVidHD/sub64/description.json', 'patch_size': [256, 256], 'desired_length': 2000, 'target_resolution': 360, 'resampling_method': 'bilinear/0.15 box/0.15 bicubic/0.35 lanczos/0.35', 'max_frame_distance': 1, 'random_flip': True, 'n_workers': 4, 'n_frames': 4, 'batch_size': 1, 'brightness_aug': {'enabled': False, 'alpha_min': 1.0, 'alpha_max': 1.0, 'beta_min': 0.0, 'beta_max': 0.0, 'only_y_channel': True}}, 'learning_rate': 1e-05, 'grad_max_norm': 0.2, 'frame_grad_max_norm': 1.0, 'loss_lambdas': [1, 768], 'loss_type': 'total_rdc_psnr', 'bpp_loss_weight': 1.0, 'clear_grad_for_y_q': True, 'cascade': True, 'random_rate': True, 'transfer_weights': 'none', 'distortion_weights': [0.52, 1.33, 0.83], 'step_metric_frequency': 5, 'i_frame_dropout': 0.5, 'schedule': [], 'compile_model': False, 'compile_loss': False}, 'benchmark_test': {}, 'config': 'C:\\Users\\deskESB036-4\\mlvc\\code\\video\\configs\\train_video-mlvc.yaml', 'data_mount': 'C:\\Users\\deskESB036-4\\mlvc', 'checkpoints_mount': 'C:\\Users\\deskESB036-4\\mlvc\\job-outputs', 'aux_mounts': {}, 'seed': 0, 'mode': 'train', 'distributed_backend': None, 'distributed_timeout_minutes': None, 'reraise_exceptions': False, 'save_dir': 'checkpoints/control'}
-2026-11-19 20:58:08,753 P21064 I: Setting torch.backends.cudnn.benchmark = True
-2026-11-19 20:58:08,753 P21064 I: Setting torch._logging.set_logs from torch.logs='recompiles'
-2026-11-19 20:58:08,755 P21064 I: Setting random seed to 0
-2026-11-19 20:58:08,918 P21064 I: Module Name: decoder.up.conv.0, Total Parameters: 1180672
-2026-11-19 20:58:08,918 P21064 I: Module Name: y_prior_fusion.conv.0.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:08,918 P21064 I: Module Name: y_prior_fusion.conv.1.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:08,918 P21064 I: Module Name: y_prior_fusion.conv.2.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:08,918 P21064 I: Module Name: y_prior_fusion.conv.0.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:08,918 P21064 I: Module Name: y_prior_fusion.conv.1.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:08,918 P21064 I: Module Name: y_prior_fusion.conv.2.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:08,918 P21064 I: Module Name: encoder.down, Total Parameters: 295040
-2026-11-19 20:58:08,918 P21064 I: Module Name: feature_extractor.conv1.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: feature_extractor.conv1.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: feature_extractor.conv2.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: feature_extractor.conv2.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: feature_extractor.conv2.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: feature_extractor.conv2.3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: encoder.conv2.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: encoder.conv2.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: encoder.conv3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: temporal_prior_encoder.conv.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: y_spatial_prior.conv.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: y_spatial_prior.conv.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: decoder.conv1.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: decoder.conv1.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,918 P21064 I: Module Name: decoder.conv1.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,919 P21064 I: Module Name: recon_generation_net.conv.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,919 P21064 I: Module Name: recon_generation_net.conv.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,919 P21064 I: Module Name: recon_generation_net.conv.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,919 P21064 I: Module Name: recon_generation_net.conv.3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:08,919 P21064 I: Module Name: temporal_prior_encoder.down, Total Parameters: 262400
-2026-11-19 20:58:08,919 P21064 I: Module Name: feature_adaptor_i.conv.ffn.0, Total Parameters: 262144
-2026-11-19 20:58:08,919 P21064 I: Module Name: y_prior_fusion.conv.0.dc.0, Total Parameters: 147840
-2026-11-19 20:58:08,919 P21064 I: Module Name: y_prior_fusion.conv.0.dc.3, Total Parameters: 147840
-2026-11-19 20:58:08,919 P21064 I: Module Name: y_prior_fusion.conv.1.dc.0, Total Parameters: 147840
-2026-11-19 20:58:08,919 P21064 I: Module Name: y_prior_fusion.conv.1.dc.3, Total Parameters: 147840
-2026-11-19 20:58:08,919 P21064 I: Module Name: y_prior_fusion.conv.2.dc.0, Total Parameters: 147840
-2026-11-19 20:58:08,919 P21064 I: Module Name: y_prior_fusion.conv.2.dc.3, Total Parameters: 147840
-2026-11-19 20:58:08,919 P21064 I: Module Name: feature_extractor.conv1.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: feature_extractor.conv1.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: feature_extractor.conv2.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: feature_extractor.conv2.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: feature_extractor.conv2.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: feature_extractor.conv2.3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: encoder.conv2.0.adaptor, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: encoder.conv2.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: encoder.conv2.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: encoder.conv3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: temporal_prior_encoder.conv.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: y_spatial_prior.conv.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: y_spatial_prior.conv.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: decoder.conv1.0.adaptor, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: decoder.conv1.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: decoder.conv1.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: decoder.conv1.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: recon_generation_net.conv.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: recon_generation_net.conv.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: recon_generation_net.conv.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: recon_generation_net.conv.3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:08,919 P21064 I: Module Name: feature_adaptor_i.conv.ffn.2, Total Parameters: 131072
-2026-11-19 20:58:08,920 P21064 I: Module Name: decoder.conv2, Total Parameters: 98688
-2026-11-19 20:58:08,920 P21064 I: Module Name: y_prior_fusion.conv.3, Total Parameters: 98560
-2026-11-19 20:58:08,920 P21064 I: Module Name: y_spatial_prior.conv.0.adaptor, Total Parameters: 98560
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_encoder.conv.0.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_encoder.conv.1.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_encoder.conv.2.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_encoder.conv.3.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_decoder.conv.0.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_decoder.conv.0.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_decoder.conv.1.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_decoder.conv.1.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_decoder.conv.2.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_decoder.conv.2.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: hyper_decoder.conv.3.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv1.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv1.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv1.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv1.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv2.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv2.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv2.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv2.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv2.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv2.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv2.3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: feature_extractor.conv2.3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: encoder.conv2.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: encoder.conv2.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: encoder.conv2.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: encoder.conv2.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: encoder.conv3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: encoder.conv3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: temporal_prior_encoder.conv.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: temporal_prior_encoder.conv.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: y_spatial_prior.conv.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,920 P21064 I: Module Name: y_spatial_prior.conv.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: y_spatial_prior.conv.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: y_spatial_prior.conv.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: decoder.conv1.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: decoder.conv1.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: decoder.conv1.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: decoder.conv1.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: decoder.conv1.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: decoder.conv1.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_encoder.conv.1.down, Total Parameters: 65664
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_encoder.conv.2.down, Total Parameters: 65664
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_encoder.conv.3.down, Total Parameters: 65664
-2026-11-19 20:58:08,921 P21064 I: Module Name: feature_adaptor_i.conv.dc.0, Total Parameters: 65536
-2026-11-19 20:58:08,921 P21064 I: Module Name: feature_adaptor_i.conv.dc.3, Total Parameters: 65536
-2026-11-19 20:58:08,921 P21064 I: Module Name: , Total Parameters: 64512
-2026-11-19 20:58:08,921 P21064 I: Module Name: encoder.conv1, Total Parameters: 49408
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.head, Total Parameters: 49344
-2026-11-19 20:58:08,921 P21064 I: Module Name: feature_adaptor_i.conv.adaptor, Total Parameters: 49152
-2026-11-19 20:58:08,921 P21064 I: Module Name: feature_extractor.conv1.0.adaptor, Total Parameters: 33024
-2026-11-19 20:58:08,921 P21064 I: Module Name: recon_generation_net.conv.0.adaptor, Total Parameters: 33024
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_encoder.conv.0.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_encoder.conv.1.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_encoder.conv.2.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_encoder.conv.3.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_decoder.conv.0.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_decoder.conv.1.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_decoder.conv.2.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:08,921 P21064 I: Module Name: hyper_decoder.conv.3.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:08,922 P21064 I: Module Name: y_spatial_prior.conv.2, Total Parameters: 32896
-2026-11-19 20:58:08,922 P21064 I: Module Name: bit_estimator_z.f1, Total Parameters: 27648
-2026-11-19 20:58:08,922 P21064 I: Module Name: bit_estimator_z.f2, Total Parameters: 27648
-2026-11-19 20:58:08,922 P21064 I: Module Name: bit_estimator_z.f3, Total Parameters: 27648
-2026-11-19 20:58:08,922 P21064 I: Module Name: bit_estimator_z.f4, Total Parameters: 18432
-2026-11-19 20:58:08,922 P21064 I: Module Name: feature_adaptor_p.conv, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_encoder.conv.0.dc.0, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_encoder.conv.0.dc.3, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_encoder.conv.1.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_encoder.conv.1.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_encoder.conv.2.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_encoder.conv.2.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_encoder.conv.3.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_encoder.conv.3.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_decoder.conv.0.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_decoder.conv.0.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_decoder.conv.1.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_decoder.conv.1.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_decoder.conv.2.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_decoder.conv.2.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_decoder.conv.3.dc.0, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: hyper_decoder.conv.3.dc.3, Total Parameters: 16512
-2026-11-19 20:58:08,922 P21064 I: Module Name: y_prior_fusion.conv.0.dc.2, Total Parameters: 3840
-2026-11-19 20:58:08,922 P21064 I: Module Name: y_prior_fusion.conv.1.dc.2, Total Parameters: 3840
-2026-11-19 20:58:08,922 P21064 I: Module Name: y_prior_fusion.conv.2.dc.2, Total Parameters: 3840
-2026-11-19 20:58:08,922 P21064 I: Module Name: feature_extractor.conv1.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,922 P21064 I: Module Name: feature_extractor.conv1.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,922 P21064 I: Module Name: feature_extractor.conv2.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,922 P21064 I: Module Name: feature_extractor.conv2.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,922 P21064 I: Module Name: feature_extractor.conv2.2.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,922 P21064 I: Module Name: feature_extractor.conv2.3.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,922 P21064 I: Module Name: encoder.conv2.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,922 P21064 I: Module Name: encoder.conv2.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,922 P21064 I: Module Name: encoder.conv3.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: temporal_prior_encoder.conv.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: y_spatial_prior.conv.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: y_spatial_prior.conv.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: decoder.conv1.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: decoder.conv1.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: decoder.conv1.2.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: recon_generation_net.conv.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: recon_generation_net.conv.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: recon_generation_net.conv.2.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: recon_generation_net.conv.3.dc.2, Total Parameters: 2560
-2026-11-19 20:58:08,923 P21064 I: Module Name: feature_adaptor_i.conv.dc.2, Total Parameters: 2304
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_encoder.conv.0.dc.2, Total Parameters: 1280
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_encoder.conv.1.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_encoder.conv.2.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_encoder.conv.3.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_decoder.conv.0.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_decoder.conv.1.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_decoder.conv.2.conv.dc.2, Total Parameters: 1280
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_decoder.conv.3.dc.2, Total Parameters: 1280
-2026-11-19 20:58:08,923 P21064 I: Module Name: feature_adaptor_i.conv, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: feature_extractor.conv1.0, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: feature_extractor.conv1.1, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: feature_extractor.conv2.0, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: feature_extractor.conv2.1, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: feature_extractor.conv2.2, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: feature_extractor.conv2.3, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: encoder.conv2.0, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: encoder.conv2.1, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: encoder.conv3, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_encoder.conv.0, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_encoder.conv.1.conv, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_encoder.conv.2.conv, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_encoder.conv.3.conv, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_decoder.conv.0.conv, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_decoder.conv.1.conv, Total Parameters: 2
-2026-11-19 20:58:08,923 P21064 I: Module Name: hyper_decoder.conv.2.conv, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: hyper_decoder.conv.3, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: temporal_prior_encoder.conv, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: y_prior_fusion.conv.0, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: y_prior_fusion.conv.1, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: y_prior_fusion.conv.2, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: y_spatial_prior.conv.0, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: y_spatial_prior.conv.1, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: decoder.conv1.0, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: decoder.conv1.1, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: decoder.conv1.2, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: recon_generation_net.conv.0, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: recon_generation_net.conv.1, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: recon_generation_net.conv.2, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Module Name: recon_generation_net.conv.3, Total Parameters: 2
-2026-11-19 20:58:08,924 P21064 I: Total parameters: 18316286
-2026-11-19 20:58:08,985 P21064 I: pretrained weights loaded from C:/Users/deskESB036-4/mlvc/job-outputs/pretrained/mlvc-psnr-v1.ckpt
-2026-11-19 20:58:09,001 P21064 I: cuda: is_available() = True, device_count = 1
-2026-11-19 20:58:09,192 P21064 I: created train dataloader with batch_size = 1, n_workers = 4
-uv.exe : 2026-11-19 20:58:10,801 P21064 W: Unable to get AzureML/MLflow run context, not reporting metrics to AzureML
-At C:\Users\deskESB036-4\Downloads\lab.ps1:55 char:16
-+ function Uvr { & uv run --no-sync @args }
-+                ~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (2026-11-19 20:5...rics to AzureML:String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
-2026-11-19 20:58:10,801 P21064 E: Exception in main:
-Traceback (most recent call last):
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 141, in main
-    rc = self.run()
-         ^^^^^^^^^^
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1667, in run
-    self.train()
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1588, in train
-    self.train_one_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 929, in train_one_epoch
-    super().train_one_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1365, in train_one_epoch
-    self.prepare_for_epoch(epoch)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 549, in prepare_for_epoch
-    self._check_flat_parameters_support(config)
-  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 788, in _check_flat_parameters_support
-    raise ValueError(f"train.flat_parameters does not support {', '.join(names)}")
-ValueError: train.flat_parameters does not support train.compile_model: false
-[control] crashed (try 3) 11/19/2026 20:58:11
-2026-11-19 20:58:49,179 P17712 I: Running with config: {'log_dir': 'logs', 'torch': None, 'cuda': {'cudnn_benchmark': True}, 'model': {'i_frame': {'type': 'DMCI-6.0', 'N': 256, 'z_channel': 128, 'yuv420': True, 'ckpt_path': 'pretrained/DMCI-6.0.pth.tar'}, 'p_frame': {'type': 'DMC-6.1sb', 'yuv420': True, 'activation': 'LeakyReLU', 'input_offset': -0.5, 'feature_channels': 128, 'spatial_prior_channels': 256, 'memory_activation': 'identity', 'zero_init_residual': True, 'chunk_mode': 'gated', 'ffn_gate_activation': 'ReLU1', 'chain_feature_adaptors': True, 'ckpt_path': 'pretrained/mlvc-psnr-v1.ckpt'}, 'auxiliary': {'path': 'pretrained/', 'config': {'deqa_score': {'ckpt_name': 'DeQA-Score-Mix3'}}}, 'ckpt_path': None}, 'train': {'flat_parameters': True, 'use_backprop_checkpoints': True, 'n_epoch': 4, 'ckpt_per_epoch': 1, 'restart': True, 'dataset': {'path': 'data/OpenVidHD/sub64/description.json', 'patch_size': [256, 256], 'desired_length': 2000, 'target_resolution': 360, 'resampling_method': 'bilinear/0.15 box/0.15 bicubic/0.35 lanczos/0.35', 'max_frame_distance': 1, 'random_flip': True, 'n_workers': 4, 'n_frames': 4, 'batch_size': 2, 'brightness_aug': {'enabled': False, 'alpha_min': 1.0, 'alpha_max': 1.0, 'beta_min': 0.0, 'beta_max': 0.0, 'only_y_channel': True}}, 'learning_rate': 1e-05, 'grad_max_norm': 0.2, 'frame_grad_max_norm': 1.0, 'loss_lambdas': [1, 768], 'loss_type': 'total_rdc_psnr', 'bpp_loss_weight': 1.0, 'clear_grad_for_y_q': True, 'cascade': True, 'random_rate': True, 'transfer_weights': 'none', 'distortion_weights': [0.52, 1.33, 0.83], 'step_metric_frequency': 5, 'i_frame_dropout': 0.5, 'schedule': [], 'compile_model': False, 'compile_loss': False}, 'benchmark_test': {}, 'config': 'C:\\Users\\deskESB036-4\\mlvc\\code\\video\\configs\\train_video-mlvc.yaml', 'data_mount': 'C:\\Users\\deskESB036-4\\mlvc', 'checkpoints_mount': 'C:\\Users\\deskESB036-4\\mlvc\\job-outputs', 'aux_mounts': {}, 'seed': 0, 'mode': 'train', 'distributed_backend': None, 'distributed_timeout_minutes': None, 'reraise_exceptions': False, 'save_dir': 'checkpoints/control'}
-2026-11-19 20:58:49,201 P17712 I: Setting torch.backends.cudnn.benchmark = True
-2026-11-19 20:58:49,201 P17712 I: Setting torch._logging.set_logs from torch.logs='recompiles'
-2026-11-19 20:58:49,203 P17712 I: Setting random seed to 0
-2026-11-19 20:58:49,362 P17712 I: Module Name: decoder.up.conv.0, Total Parameters: 1180672
-2026-11-19 20:58:49,362 P17712 I: Module Name: y_prior_fusion.conv.0.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:49,362 P17712 I: Module Name: y_prior_fusion.conv.1.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:49,362 P17712 I: Module Name: y_prior_fusion.conv.2.ffn.0, Total Parameters: 591360
-2026-11-19 20:58:49,362 P17712 I: Module Name: y_prior_fusion.conv.0.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:49,362 P17712 I: Module Name: y_prior_fusion.conv.1.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:49,362 P17712 I: Module Name: y_prior_fusion.conv.2.ffn.2, Total Parameters: 295296
-2026-11-19 20:58:49,362 P17712 I: Module Name: encoder.down, Total Parameters: 295040
-2026-11-19 20:58:49,362 P17712 I: Module Name: feature_extractor.conv1.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: feature_extractor.conv1.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: feature_extractor.conv2.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: feature_extractor.conv2.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: feature_extractor.conv2.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: feature_extractor.conv2.3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: encoder.conv2.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: encoder.conv2.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: encoder.conv3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: temporal_prior_encoder.conv.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: y_spatial_prior.conv.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: y_spatial_prior.conv.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: decoder.conv1.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: decoder.conv1.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: decoder.conv1.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,362 P17712 I: Module Name: recon_generation_net.conv.0.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,363 P17712 I: Module Name: recon_generation_net.conv.1.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,363 P17712 I: Module Name: recon_generation_net.conv.2.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,363 P17712 I: Module Name: recon_generation_net.conv.3.ffn.0, Total Parameters: 263168
-2026-11-19 20:58:49,363 P17712 I: Module Name: temporal_prior_encoder.down, Total Parameters: 262400
-2026-11-19 20:58:49,363 P17712 I: Module Name: feature_adaptor_i.conv.ffn.0, Total Parameters: 262144
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_prior_fusion.conv.0.dc.0, Total Parameters: 147840
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_prior_fusion.conv.0.dc.3, Total Parameters: 147840
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_prior_fusion.conv.1.dc.0, Total Parameters: 147840
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_prior_fusion.conv.1.dc.3, Total Parameters: 147840
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_prior_fusion.conv.2.dc.0, Total Parameters: 147840
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_prior_fusion.conv.2.dc.3, Total Parameters: 147840
-2026-11-19 20:58:49,363 P17712 I: Module Name: feature_extractor.conv1.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: feature_extractor.conv1.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: feature_extractor.conv2.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: feature_extractor.conv2.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: feature_extractor.conv2.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: feature_extractor.conv2.3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: encoder.conv2.0.adaptor, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: encoder.conv2.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: encoder.conv2.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: encoder.conv3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: temporal_prior_encoder.conv.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_spatial_prior.conv.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_spatial_prior.conv.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: decoder.conv1.0.adaptor, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: decoder.conv1.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: decoder.conv1.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: decoder.conv1.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: recon_generation_net.conv.0.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: recon_generation_net.conv.1.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: recon_generation_net.conv.2.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: recon_generation_net.conv.3.ffn.2, Total Parameters: 131328
-2026-11-19 20:58:49,363 P17712 I: Module Name: feature_adaptor_i.conv.ffn.2, Total Parameters: 131072
-2026-11-19 20:58:49,363 P17712 I: Module Name: decoder.conv2, Total Parameters: 98688
-2026-11-19 20:58:49,363 P17712 I: Module Name: y_prior_fusion.conv.3, Total Parameters: 98560
-2026-11-19 20:58:49,364 P17712 I: Module Name: y_spatial_prior.conv.0.adaptor, Total Parameters: 98560
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_encoder.conv.0.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_encoder.conv.1.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_encoder.conv.2.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_encoder.conv.3.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_decoder.conv.0.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_decoder.conv.0.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_decoder.conv.1.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_decoder.conv.1.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_decoder.conv.2.up.conv.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_decoder.conv.2.conv.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: hyper_decoder.conv.3.ffn.0, Total Parameters: 66048
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv1.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv1.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv1.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv1.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv2.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv2.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv2.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv2.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv2.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv2.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv2.3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: feature_extractor.conv2.3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: encoder.conv2.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: encoder.conv2.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: encoder.conv2.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: encoder.conv2.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: encoder.conv3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: encoder.conv3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: temporal_prior_encoder.conv.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: temporal_prior_encoder.conv.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: y_spatial_prior.conv.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: y_spatial_prior.conv.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,364 P17712 I: Module Name: y_spatial_prior.conv.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: y_spatial_prior.conv.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: decoder.conv1.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: decoder.conv1.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: decoder.conv1.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: decoder.conv1.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: decoder.conv1.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: decoder.conv1.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.0.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.0.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.1.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.1.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.2.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.2.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.3.dc.0, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.3.dc.3, Total Parameters: 65792
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_encoder.conv.1.down, Total Parameters: 65664
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_encoder.conv.2.down, Total Parameters: 65664
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_encoder.conv.3.down, Total Parameters: 65664
-2026-11-19 20:58:49,365 P17712 I: Module Name: feature_adaptor_i.conv.dc.0, Total Parameters: 65536
-2026-11-19 20:58:49,365 P17712 I: Module Name: feature_adaptor_i.conv.dc.3, Total Parameters: 65536
-2026-11-19 20:58:49,365 P17712 I: Module Name: , Total Parameters: 64512
-2026-11-19 20:58:49,365 P17712 I: Module Name: encoder.conv1, Total Parameters: 49408
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.head, Total Parameters: 49344
-2026-11-19 20:58:49,365 P17712 I: Module Name: feature_adaptor_i.conv.adaptor, Total Parameters: 49152
-2026-11-19 20:58:49,365 P17712 I: Module Name: feature_extractor.conv1.0.adaptor, Total Parameters: 33024
-2026-11-19 20:58:49,365 P17712 I: Module Name: recon_generation_net.conv.0.adaptor, Total Parameters: 33024
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_encoder.conv.0.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_encoder.conv.1.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_encoder.conv.2.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_encoder.conv.3.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_decoder.conv.0.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_decoder.conv.1.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_decoder.conv.2.conv.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: hyper_decoder.conv.3.ffn.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: y_spatial_prior.conv.2, Total Parameters: 32896
-2026-11-19 20:58:49,365 P17712 I: Module Name: bit_estimator_z.f1, Total Parameters: 27648
-2026-11-19 20:58:49,366 P17712 I: Module Name: bit_estimator_z.f2, Total Parameters: 27648
-2026-11-19 20:58:49,366 P17712 I: Module Name: bit_estimator_z.f3, Total Parameters: 27648
-2026-11-19 20:58:49,366 P17712 I: Module Name: bit_estimator_z.f4, Total Parameters: 18432
-2026-11-19 20:58:49,366 P17712 I: Module Name: feature_adaptor_p.conv, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_encoder.conv.0.dc.0, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_encoder.conv.0.dc.3, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_encoder.conv.1.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_encoder.conv.1.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_encoder.conv.2.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_encoder.conv.2.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_encoder.conv.3.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_encoder.conv.3.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_decoder.conv.0.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:49,366 P17712 I: Module Name: hyper_decoder.conv.0.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:49,367 P17712 I: Module Name: hyper_decoder.conv.1.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:49,367 P17712 I: Module Name: hyper_decoder.conv.1.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:49,367 P17712 I: Module Name: hyper_decoder.conv.2.conv.dc.0, Total Parameters: 16512
-2026-11-19 20:58:49,367 P17712 I: Module Name: hyper_decoder.conv.2.conv.dc.3, Total Parameters: 16512
-2026-11-19 20:58:49,367 P17712 I: Module Name: hyper_decoder.conv.3.dc.0, Total Parameters: 16512
-2026-11-19 20:58:49,367 P17712 I: Module Name: hyper_decoder.conv.3.dc.3, Total Parameters: 16512
-2026-11-19 20:58:49,367 P17712 I: Module Name: y_prior_fusion.conv.0.dc.2, Total Parameters: 3840
-2026-11-19 20:58:49,367 P17712 I: Module Name: y_prior_fusion.conv.1.dc.2, Total Parameters: 3840
-2026-11-19 20:58:49,367 P17712 I: Module Name: y_prior_fusion.conv.2.dc.2, Total Parameters: 3840
-2026-11-19 20:58:49,367 P17712 I: Module Name: feature_extractor.conv1.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:49,367 P17712 I: Module Name: feature_extractor.conv1.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:49,367 P17712 I: Module Name: feature_extractor.conv2.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:49,367 P17712 I: Module Name: feature_extractor.conv2.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:49,367 P17712 I: Module Name: feature_extractor.conv2.2.dc.2, Total Parameters: 2560
-2026-11-19 20:58:49,367 P17712 I: Module Name: feature_extractor.conv2.3.dc.2, Total Parameters: 2560
-2026-11-19 20:58:49,367 P17712 I: Module Name: encoder.conv2.0.dc.2, Total Parameters: 2560
-2026-11-19 20:58:49,367 P17712 I: Module Name: encoder.conv2.1.dc.2, Total Parameters: 2560
-2026-11-19 20:58:49,367 P17712 I: Module Name: encoder.conv3.dc.2, Total Parameters: 2560
 2026-11-19 20:58:49,367 P17712 I: Module Name: temporal_prior_encoder.conv.dc.2, Total Parameters: 2560
 2026-11-19 20:58:49,367 P17712 I: Module Name: y_spatial_prior.conv.0.dc.2, Total Parameters: 2560
 2026-11-19 20:58:49,367 P17712 I: Module Name: y_spatial_prior.conv.1.dc.2, Total Parameters: 2560
@@ -4998,3 +4260,741 @@ Traceback (most recent call last):
     raise ValueError(f"train.flat_parameters does not support {', '.join(names)}")
 ValueError: train.flat_parameters does not support train.compile_model: false
 [control] crashed (try 3) 11/19/2026 21:03:43
+2026-11-19 21:04:22,712 P19660 I: Running with config: {'log_dir': 'logs', 'torch': None, 'cuda': {'cudnn_benchmark': True}, 'model': {'i_frame': {'type': 'DMCI-6.0', 'N': 256, 'z_channel': 128, 'yuv420': True, 'ckpt_path': 'pretrained/DMCI-6.0.pth.tar'}, 'p_frame': {'type': 'DMC-6.1sb', 'yuv420': True, 'activation': 'LeakyReLU', 'input_offset': -0.5, 'feature_channels': 128, 'spatial_prior_channels': 256, 'memory_activation': 'identity', 'zero_init_residual': True, 'chunk_mode': 'gated', 'ffn_gate_activation': 'ReLU1', 'chain_feature_adaptors': True, 'ckpt_path': 'pretrained/mlvc-psnr-v1.ckpt'}, 'auxiliary': {'path': 'pretrained/', 'config': {'deqa_score': {'ckpt_name': 'DeQA-Score-Mix3'}}}, 'ckpt_path': None}, 'train': {'flat_parameters': True, 'use_backprop_checkpoints': True, 'n_epoch': 16, 'ckpt_per_epoch': 1, 'restart': True, 'dataset': {'path': 'data/OpenVidHD/sub64/description.json', 'patch_size': [256, 256], 'desired_length': 2000, 'target_resolution': 360, 'resampling_method': 'bilinear/0.15 box/0.15 bicubic/0.35 lanczos/0.35', 'max_frame_distance': 1, 'random_flip': True, 'n_workers': 4, 'n_frames': 4, 'batch_size': 2, 'brightness_aug': {'enabled': False, 'alpha_min': 1.0, 'alpha_max': 1.0, 'beta_min': 0.0, 'beta_max': 0.0, 'only_y_channel': True}}, 'learning_rate': 1e-05, 'grad_max_norm': 0.2, 'frame_grad_max_norm': 1.0, 'loss_lambdas': [1, 768], 'loss_type': 'total_rdc_psnr', 'bpp_loss_weight': 1.0, 'clear_grad_for_y_q': True, 'cascade': True, 'random_rate': True, 'transfer_weights': 'none', 'distortion_weights': [0.52, 1.33, 0.83], 'step_metric_frequency': 5, 'i_frame_dropout': 0.5, 'schedule': [], 'compile_model': False, 'compile_loss': False}, 'benchmark_test': {}, 'config': 'C:\\Users\\deskESB036-4\\mlvc\\code\\video\\configs\\train_video-mlvc.yaml', 'data_mount': 'C:\\Users\\deskESB036-4\\mlvc', 'checkpoints_mount': 'C:\\Users\\deskESB036-4\\mlvc\\job-outputs', 'aux_mounts': {}, 'seed': 0, 'mode': 'train', 'distributed_backend': None, 'distributed_timeout_minutes': None, 'reraise_exceptions': False, 'save_dir': 'checkpoints/control'}
+2026-11-19 21:04:22,733 P19660 I: Setting torch.backends.cudnn.benchmark = True
+2026-11-19 21:04:22,734 P19660 I: Setting torch._logging.set_logs from torch.logs='recompiles'
+2026-11-19 21:04:22,735 P19660 I: Setting random seed to 0
+2026-11-19 21:04:22,893 P19660 I: Module Name: decoder.up.conv.0, Total Parameters: 1180672
+2026-11-19 21:04:22,893 P19660 I: Module Name: y_prior_fusion.conv.0.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:22,893 P19660 I: Module Name: y_prior_fusion.conv.1.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:22,893 P19660 I: Module Name: y_prior_fusion.conv.2.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:22,893 P19660 I: Module Name: y_prior_fusion.conv.0.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:22,893 P19660 I: Module Name: y_prior_fusion.conv.1.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:22,893 P19660 I: Module Name: y_prior_fusion.conv.2.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:22,893 P19660 I: Module Name: encoder.down, Total Parameters: 295040
+2026-11-19 21:04:22,893 P19660 I: Module Name: feature_extractor.conv1.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: feature_extractor.conv1.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: feature_extractor.conv2.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: feature_extractor.conv2.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: feature_extractor.conv2.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: feature_extractor.conv2.3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: encoder.conv2.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: encoder.conv2.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: encoder.conv3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: temporal_prior_encoder.conv.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: y_spatial_prior.conv.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: y_spatial_prior.conv.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: decoder.conv1.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: decoder.conv1.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: decoder.conv1.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,893 P19660 I: Module Name: recon_generation_net.conv.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,894 P19660 I: Module Name: recon_generation_net.conv.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,894 P19660 I: Module Name: recon_generation_net.conv.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,894 P19660 I: Module Name: recon_generation_net.conv.3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:22,894 P19660 I: Module Name: temporal_prior_encoder.down, Total Parameters: 262400
+2026-11-19 21:04:22,894 P19660 I: Module Name: feature_adaptor_i.conv.ffn.0, Total Parameters: 262144
+2026-11-19 21:04:22,894 P19660 I: Module Name: y_prior_fusion.conv.0.dc.0, Total Parameters: 147840
+2026-11-19 21:04:22,894 P19660 I: Module Name: y_prior_fusion.conv.0.dc.3, Total Parameters: 147840
+2026-11-19 21:04:22,894 P19660 I: Module Name: y_prior_fusion.conv.1.dc.0, Total Parameters: 147840
+2026-11-19 21:04:22,894 P19660 I: Module Name: y_prior_fusion.conv.1.dc.3, Total Parameters: 147840
+2026-11-19 21:04:22,894 P19660 I: Module Name: y_prior_fusion.conv.2.dc.0, Total Parameters: 147840
+2026-11-19 21:04:22,894 P19660 I: Module Name: y_prior_fusion.conv.2.dc.3, Total Parameters: 147840
+2026-11-19 21:04:22,894 P19660 I: Module Name: feature_extractor.conv1.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: feature_extractor.conv1.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: feature_extractor.conv2.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: feature_extractor.conv2.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: feature_extractor.conv2.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: feature_extractor.conv2.3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: encoder.conv2.0.adaptor, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: encoder.conv2.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: encoder.conv2.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: encoder.conv3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: temporal_prior_encoder.conv.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: y_spatial_prior.conv.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: y_spatial_prior.conv.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: decoder.conv1.0.adaptor, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: decoder.conv1.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: decoder.conv1.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: decoder.conv1.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: recon_generation_net.conv.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: recon_generation_net.conv.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: recon_generation_net.conv.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: recon_generation_net.conv.3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:22,894 P19660 I: Module Name: feature_adaptor_i.conv.ffn.2, Total Parameters: 131072
+2026-11-19 21:04:22,894 P19660 I: Module Name: decoder.conv2, Total Parameters: 98688
+2026-11-19 21:04:22,895 P19660 I: Module Name: y_prior_fusion.conv.3, Total Parameters: 98560
+2026-11-19 21:04:22,895 P19660 I: Module Name: y_spatial_prior.conv.0.adaptor, Total Parameters: 98560
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_encoder.conv.0.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_encoder.conv.1.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_encoder.conv.2.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_encoder.conv.3.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_decoder.conv.0.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_decoder.conv.0.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_decoder.conv.1.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_decoder.conv.1.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_decoder.conv.2.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_decoder.conv.2.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: hyper_decoder.conv.3.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv1.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv1.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv1.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv1.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv2.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv2.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv2.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv2.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv2.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv2.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv2.3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: feature_extractor.conv2.3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: encoder.conv2.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: encoder.conv2.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: encoder.conv2.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: encoder.conv2.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: encoder.conv3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: encoder.conv3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: temporal_prior_encoder.conv.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: temporal_prior_encoder.conv.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,895 P19660 I: Module Name: y_spatial_prior.conv.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: y_spatial_prior.conv.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: y_spatial_prior.conv.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: y_spatial_prior.conv.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: decoder.conv1.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: decoder.conv1.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: decoder.conv1.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: decoder.conv1.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: decoder.conv1.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: decoder.conv1.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_encoder.conv.1.down, Total Parameters: 65664
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_encoder.conv.2.down, Total Parameters: 65664
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_encoder.conv.3.down, Total Parameters: 65664
+2026-11-19 21:04:22,896 P19660 I: Module Name: feature_adaptor_i.conv.dc.0, Total Parameters: 65536
+2026-11-19 21:04:22,896 P19660 I: Module Name: feature_adaptor_i.conv.dc.3, Total Parameters: 65536
+2026-11-19 21:04:22,896 P19660 I: Module Name: , Total Parameters: 64512
+2026-11-19 21:04:22,896 P19660 I: Module Name: encoder.conv1, Total Parameters: 49408
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.head, Total Parameters: 49344
+2026-11-19 21:04:22,896 P19660 I: Module Name: feature_adaptor_i.conv.adaptor, Total Parameters: 49152
+2026-11-19 21:04:22,896 P19660 I: Module Name: feature_extractor.conv1.0.adaptor, Total Parameters: 33024
+2026-11-19 21:04:22,896 P19660 I: Module Name: recon_generation_net.conv.0.adaptor, Total Parameters: 33024
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_encoder.conv.0.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_encoder.conv.1.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_encoder.conv.2.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_encoder.conv.3.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_decoder.conv.0.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_decoder.conv.1.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:22,896 P19660 I: Module Name: hyper_decoder.conv.2.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.3.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:22,897 P19660 I: Module Name: y_spatial_prior.conv.2, Total Parameters: 32896
+2026-11-19 21:04:22,897 P19660 I: Module Name: bit_estimator_z.f1, Total Parameters: 27648
+2026-11-19 21:04:22,897 P19660 I: Module Name: bit_estimator_z.f2, Total Parameters: 27648
+2026-11-19 21:04:22,897 P19660 I: Module Name: bit_estimator_z.f3, Total Parameters: 27648
+2026-11-19 21:04:22,897 P19660 I: Module Name: bit_estimator_z.f4, Total Parameters: 18432
+2026-11-19 21:04:22,897 P19660 I: Module Name: feature_adaptor_p.conv, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_encoder.conv.0.dc.0, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_encoder.conv.0.dc.3, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_encoder.conv.1.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_encoder.conv.1.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_encoder.conv.2.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_encoder.conv.2.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_encoder.conv.3.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_encoder.conv.3.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.0.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.0.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.1.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.1.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.2.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.2.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.3.dc.0, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: hyper_decoder.conv.3.dc.3, Total Parameters: 16512
+2026-11-19 21:04:22,897 P19660 I: Module Name: y_prior_fusion.conv.0.dc.2, Total Parameters: 3840
+2026-11-19 21:04:22,897 P19660 I: Module Name: y_prior_fusion.conv.1.dc.2, Total Parameters: 3840
+2026-11-19 21:04:22,897 P19660 I: Module Name: y_prior_fusion.conv.2.dc.2, Total Parameters: 3840
+2026-11-19 21:04:22,897 P19660 I: Module Name: feature_extractor.conv1.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,897 P19660 I: Module Name: feature_extractor.conv1.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,897 P19660 I: Module Name: feature_extractor.conv2.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,897 P19660 I: Module Name: feature_extractor.conv2.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,897 P19660 I: Module Name: feature_extractor.conv2.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,897 P19660 I: Module Name: feature_extractor.conv2.3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,897 P19660 I: Module Name: encoder.conv2.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: encoder.conv2.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: encoder.conv3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: temporal_prior_encoder.conv.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: y_spatial_prior.conv.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: y_spatial_prior.conv.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: decoder.conv1.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: decoder.conv1.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: decoder.conv1.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: recon_generation_net.conv.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: recon_generation_net.conv.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: recon_generation_net.conv.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: recon_generation_net.conv.3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:22,898 P19660 I: Module Name: feature_adaptor_i.conv.dc.2, Total Parameters: 2304
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_encoder.conv.0.dc.2, Total Parameters: 1280
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_encoder.conv.1.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_encoder.conv.2.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_encoder.conv.3.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_decoder.conv.0.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_decoder.conv.1.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_decoder.conv.2.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_decoder.conv.3.dc.2, Total Parameters: 1280
+2026-11-19 21:04:22,898 P19660 I: Module Name: feature_adaptor_i.conv, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: feature_extractor.conv1.0, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: feature_extractor.conv1.1, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: feature_extractor.conv2.0, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: feature_extractor.conv2.1, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: feature_extractor.conv2.2, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: feature_extractor.conv2.3, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: encoder.conv2.0, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: encoder.conv2.1, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: encoder.conv3, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_encoder.conv.0, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_encoder.conv.1.conv, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_encoder.conv.2.conv, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_encoder.conv.3.conv, Total Parameters: 2
+2026-11-19 21:04:22,898 P19660 I: Module Name: hyper_decoder.conv.0.conv, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: hyper_decoder.conv.1.conv, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: hyper_decoder.conv.2.conv, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: hyper_decoder.conv.3, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: temporal_prior_encoder.conv, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: y_prior_fusion.conv.0, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: y_prior_fusion.conv.1, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: y_prior_fusion.conv.2, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: y_spatial_prior.conv.0, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: y_spatial_prior.conv.1, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: decoder.conv1.0, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: decoder.conv1.1, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: decoder.conv1.2, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: recon_generation_net.conv.0, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: recon_generation_net.conv.1, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: recon_generation_net.conv.2, Total Parameters: 2
+2026-11-19 21:04:22,899 P19660 I: Module Name: recon_generation_net.conv.3, Total Parameters: 2
+2026-11-19 21:04:22,900 P19660 I: Total parameters: 18316286
+2026-11-19 21:04:22,961 P19660 I: pretrained weights loaded from C:/Users/deskESB036-4/mlvc/job-outputs/pretrained/mlvc-psnr-v1.ckpt
+2026-11-19 21:04:22,976 P19660 I: cuda: is_available() = True, device_count = 1
+2026-11-19 21:04:23,162 P19660 I: created train dataloader with batch_size = 2, n_workers = 4
+uv.exe : 2026-11-19 21:04:24,731 P19660 W: Unable to get AzureML/MLflow run context, not reporting metrics to AzureML
+At C:\Users\deskESB036-4\Downloads\lab.ps1:55 char:16
++ function Uvr { & uv run --no-sync @args }
++                ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-19 21:0...rics to AzureML:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-19 21:04:24,732 P19660 E: Exception in main:
+Traceback (most recent call last):
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 141, in main
+    rc = self.run()
+         ^^^^^^^^^^
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1667, in run
+    self.train()
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1588, in train
+    self.train_one_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 929, in train_one_epoch
+    super().train_one_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1365, in train_one_epoch
+    self.prepare_for_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 549, in prepare_for_epoch
+    self._check_flat_parameters_support(config)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 788, in _check_flat_parameters_support
+    raise ValueError(f"train.flat_parameters does not support {', '.join(names)}")
+ValueError: train.flat_parameters does not support train.compile_model: false
+[control] crashed (try 1) 11/19/2026 21:04:25
+2026-11-19 21:04:29,443 P07028 I: Running with config: {'log_dir': 'logs', 'torch': None, 'cuda': {'cudnn_benchmark': True}, 'model': {'i_frame': {'type': 'DMCI-6.0', 'N': 256, 'z_channel': 128, 'yuv420': True, 'ckpt_path': 'pretrained/DMCI-6.0.pth.tar'}, 'p_frame': {'type': 'DMC-6.1sb', 'yuv420': True, 'activation': 'LeakyReLU', 'input_offset': -0.5, 'feature_channels': 128, 'spatial_prior_channels': 256, 'memory_activation': 'identity', 'zero_init_residual': True, 'chunk_mode': 'gated', 'ffn_gate_activation': 'ReLU1', 'chain_feature_adaptors': True, 'ckpt_path': 'pretrained/mlvc-psnr-v1.ckpt'}, 'auxiliary': {'path': 'pretrained/', 'config': {'deqa_score': {'ckpt_name': 'DeQA-Score-Mix3'}}}, 'ckpt_path': None}, 'train': {'flat_parameters': True, 'use_backprop_checkpoints': True, 'n_epoch': 16, 'ckpt_per_epoch': 1, 'restart': True, 'dataset': {'path': 'data/OpenVidHD/sub64/description.json', 'patch_size': [256, 256], 'desired_length': 2000, 'target_resolution': 360, 'resampling_method': 'bilinear/0.15 box/0.15 bicubic/0.35 lanczos/0.35', 'max_frame_distance': 1, 'random_flip': True, 'n_workers': 4, 'n_frames': 4, 'batch_size': 1, 'brightness_aug': {'enabled': False, 'alpha_min': 1.0, 'alpha_max': 1.0, 'beta_min': 0.0, 'beta_max': 0.0, 'only_y_channel': True}}, 'learning_rate': 1e-05, 'grad_max_norm': 0.2, 'frame_grad_max_norm': 1.0, 'loss_lambdas': [1, 768], 'loss_type': 'total_rdc_psnr', 'bpp_loss_weight': 1.0, 'clear_grad_for_y_q': True, 'cascade': True, 'random_rate': True, 'transfer_weights': 'none', 'distortion_weights': [0.52, 1.33, 0.83], 'step_metric_frequency': 5, 'i_frame_dropout': 0.5, 'schedule': [], 'compile_model': False, 'compile_loss': False}, 'benchmark_test': {}, 'config': 'C:\\Users\\deskESB036-4\\mlvc\\code\\video\\configs\\train_video-mlvc.yaml', 'data_mount': 'C:\\Users\\deskESB036-4\\mlvc', 'checkpoints_mount': 'C:\\Users\\deskESB036-4\\mlvc\\job-outputs', 'aux_mounts': {}, 'seed': 0, 'mode': 'train', 'distributed_backend': None, 'distributed_timeout_minutes': None, 'reraise_exceptions': False, 'save_dir': 'checkpoints/control'}
+2026-11-19 21:04:29,465 P07028 I: Setting torch.backends.cudnn.benchmark = True
+2026-11-19 21:04:29,465 P07028 I: Setting torch._logging.set_logs from torch.logs='recompiles'
+2026-11-19 21:04:29,467 P07028 I: Setting random seed to 0
+2026-11-19 21:04:29,628 P07028 I: Module Name: decoder.up.conv.0, Total Parameters: 1180672
+2026-11-19 21:04:29,628 P07028 I: Module Name: y_prior_fusion.conv.0.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:29,628 P07028 I: Module Name: y_prior_fusion.conv.1.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:29,628 P07028 I: Module Name: y_prior_fusion.conv.2.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:29,628 P07028 I: Module Name: y_prior_fusion.conv.0.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:29,628 P07028 I: Module Name: y_prior_fusion.conv.1.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:29,628 P07028 I: Module Name: y_prior_fusion.conv.2.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:29,628 P07028 I: Module Name: encoder.down, Total Parameters: 295040
+2026-11-19 21:04:29,628 P07028 I: Module Name: feature_extractor.conv1.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,628 P07028 I: Module Name: feature_extractor.conv1.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,628 P07028 I: Module Name: feature_extractor.conv2.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv2.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv2.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv2.3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: encoder.conv2.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: encoder.conv2.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: encoder.conv3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: temporal_prior_encoder.conv.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: y_spatial_prior.conv.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: y_spatial_prior.conv.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: decoder.conv1.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: decoder.conv1.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: decoder.conv1.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: recon_generation_net.conv.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: recon_generation_net.conv.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: recon_generation_net.conv.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: recon_generation_net.conv.3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:29,629 P07028 I: Module Name: temporal_prior_encoder.down, Total Parameters: 262400
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_adaptor_i.conv.ffn.0, Total Parameters: 262144
+2026-11-19 21:04:29,629 P07028 I: Module Name: y_prior_fusion.conv.0.dc.0, Total Parameters: 147840
+2026-11-19 21:04:29,629 P07028 I: Module Name: y_prior_fusion.conv.0.dc.3, Total Parameters: 147840
+2026-11-19 21:04:29,629 P07028 I: Module Name: y_prior_fusion.conv.1.dc.0, Total Parameters: 147840
+2026-11-19 21:04:29,629 P07028 I: Module Name: y_prior_fusion.conv.1.dc.3, Total Parameters: 147840
+2026-11-19 21:04:29,629 P07028 I: Module Name: y_prior_fusion.conv.2.dc.0, Total Parameters: 147840
+2026-11-19 21:04:29,629 P07028 I: Module Name: y_prior_fusion.conv.2.dc.3, Total Parameters: 147840
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv1.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv1.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv2.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv2.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv2.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,629 P07028 I: Module Name: feature_extractor.conv2.3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,629 P07028 I: Module Name: encoder.conv2.0.adaptor, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: encoder.conv2.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: encoder.conv2.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: encoder.conv3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: temporal_prior_encoder.conv.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: y_spatial_prior.conv.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: y_spatial_prior.conv.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: decoder.conv1.0.adaptor, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: decoder.conv1.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: decoder.conv1.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: decoder.conv1.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: recon_generation_net.conv.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: recon_generation_net.conv.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: recon_generation_net.conv.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: recon_generation_net.conv.3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:29,630 P07028 I: Module Name: feature_adaptor_i.conv.ffn.2, Total Parameters: 131072
+2026-11-19 21:04:29,630 P07028 I: Module Name: decoder.conv2, Total Parameters: 98688
+2026-11-19 21:04:29,630 P07028 I: Module Name: y_prior_fusion.conv.3, Total Parameters: 98560
+2026-11-19 21:04:29,630 P07028 I: Module Name: y_spatial_prior.conv.0.adaptor, Total Parameters: 98560
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_encoder.conv.0.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_encoder.conv.1.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_encoder.conv.2.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_encoder.conv.3.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_decoder.conv.0.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_decoder.conv.0.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_decoder.conv.1.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_decoder.conv.1.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_decoder.conv.2.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_decoder.conv.2.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: hyper_decoder.conv.3.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:29,630 P07028 I: Module Name: feature_extractor.conv1.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,630 P07028 I: Module Name: feature_extractor.conv1.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,630 P07028 I: Module Name: feature_extractor.conv1.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,630 P07028 I: Module Name: feature_extractor.conv1.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,630 P07028 I: Module Name: feature_extractor.conv2.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,630 P07028 I: Module Name: feature_extractor.conv2.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: feature_extractor.conv2.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: feature_extractor.conv2.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: feature_extractor.conv2.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: feature_extractor.conv2.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: feature_extractor.conv2.3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: feature_extractor.conv2.3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: encoder.conv2.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: encoder.conv2.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: encoder.conv2.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: encoder.conv2.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: encoder.conv3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: encoder.conv3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: temporal_prior_encoder.conv.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: temporal_prior_encoder.conv.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: y_spatial_prior.conv.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: y_spatial_prior.conv.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: y_spatial_prior.conv.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: y_spatial_prior.conv.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: decoder.conv1.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: decoder.conv1.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: decoder.conv1.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: decoder.conv1.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: decoder.conv1.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: decoder.conv1.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: recon_generation_net.conv.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: recon_generation_net.conv.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: recon_generation_net.conv.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: recon_generation_net.conv.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: recon_generation_net.conv.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: recon_generation_net.conv.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: recon_generation_net.conv.3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: recon_generation_net.conv.3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:29,631 P07028 I: Module Name: hyper_encoder.conv.1.down, Total Parameters: 65664
+2026-11-19 21:04:29,631 P07028 I: Module Name: hyper_encoder.conv.2.down, Total Parameters: 65664
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.3.down, Total Parameters: 65664
+2026-11-19 21:04:29,632 P07028 I: Module Name: feature_adaptor_i.conv.dc.0, Total Parameters: 65536
+2026-11-19 21:04:29,632 P07028 I: Module Name: feature_adaptor_i.conv.dc.3, Total Parameters: 65536
+2026-11-19 21:04:29,632 P07028 I: Module Name: , Total Parameters: 64512
+2026-11-19 21:04:29,632 P07028 I: Module Name: encoder.conv1, Total Parameters: 49408
+2026-11-19 21:04:29,632 P07028 I: Module Name: recon_generation_net.head, Total Parameters: 49344
+2026-11-19 21:04:29,632 P07028 I: Module Name: feature_adaptor_i.conv.adaptor, Total Parameters: 49152
+2026-11-19 21:04:29,632 P07028 I: Module Name: feature_extractor.conv1.0.adaptor, Total Parameters: 33024
+2026-11-19 21:04:29,632 P07028 I: Module Name: recon_generation_net.conv.0.adaptor, Total Parameters: 33024
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.0.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.1.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.2.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.3.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_decoder.conv.0.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_decoder.conv.1.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_decoder.conv.2.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_decoder.conv.3.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: y_spatial_prior.conv.2, Total Parameters: 32896
+2026-11-19 21:04:29,632 P07028 I: Module Name: bit_estimator_z.f1, Total Parameters: 27648
+2026-11-19 21:04:29,632 P07028 I: Module Name: bit_estimator_z.f2, Total Parameters: 27648
+2026-11-19 21:04:29,632 P07028 I: Module Name: bit_estimator_z.f3, Total Parameters: 27648
+2026-11-19 21:04:29,632 P07028 I: Module Name: bit_estimator_z.f4, Total Parameters: 18432
+2026-11-19 21:04:29,632 P07028 I: Module Name: feature_adaptor_p.conv, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.0.dc.0, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.0.dc.3, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.1.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.1.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.2.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.2.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.3.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_encoder.conv.3.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_decoder.conv.0.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_decoder.conv.0.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:29,632 P07028 I: Module Name: hyper_decoder.conv.1.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.1.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.2.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.2.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.3.dc.0, Total Parameters: 16512
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.3.dc.3, Total Parameters: 16512
+2026-11-19 21:04:29,633 P07028 I: Module Name: y_prior_fusion.conv.0.dc.2, Total Parameters: 3840
+2026-11-19 21:04:29,633 P07028 I: Module Name: y_prior_fusion.conv.1.dc.2, Total Parameters: 3840
+2026-11-19 21:04:29,633 P07028 I: Module Name: y_prior_fusion.conv.2.dc.2, Total Parameters: 3840
+2026-11-19 21:04:29,633 P07028 I: Module Name: feature_extractor.conv1.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: feature_extractor.conv1.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: feature_extractor.conv2.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: feature_extractor.conv2.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: feature_extractor.conv2.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: feature_extractor.conv2.3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: encoder.conv2.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: encoder.conv2.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: encoder.conv3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: temporal_prior_encoder.conv.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: y_spatial_prior.conv.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: y_spatial_prior.conv.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: decoder.conv1.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: decoder.conv1.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: decoder.conv1.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: recon_generation_net.conv.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: recon_generation_net.conv.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: recon_generation_net.conv.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: recon_generation_net.conv.3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:29,633 P07028 I: Module Name: feature_adaptor_i.conv.dc.2, Total Parameters: 2304
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_encoder.conv.0.dc.2, Total Parameters: 1280
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_encoder.conv.1.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_encoder.conv.2.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_encoder.conv.3.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.0.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.1.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.2.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:29,633 P07028 I: Module Name: hyper_decoder.conv.3.dc.2, Total Parameters: 1280
+2026-11-19 21:04:29,634 P07028 I: Module Name: feature_adaptor_i.conv, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: feature_extractor.conv1.0, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: feature_extractor.conv1.1, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: feature_extractor.conv2.0, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: feature_extractor.conv2.1, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: feature_extractor.conv2.2, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: feature_extractor.conv2.3, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: encoder.conv2.0, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: encoder.conv2.1, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: encoder.conv3, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: hyper_encoder.conv.0, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: hyper_encoder.conv.1.conv, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: hyper_encoder.conv.2.conv, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: hyper_encoder.conv.3.conv, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: hyper_decoder.conv.0.conv, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: hyper_decoder.conv.1.conv, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: hyper_decoder.conv.2.conv, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: hyper_decoder.conv.3, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: temporal_prior_encoder.conv, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: y_prior_fusion.conv.0, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: y_prior_fusion.conv.1, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: y_prior_fusion.conv.2, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: y_spatial_prior.conv.0, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: y_spatial_prior.conv.1, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: decoder.conv1.0, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: decoder.conv1.1, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: decoder.conv1.2, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: recon_generation_net.conv.0, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: recon_generation_net.conv.1, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: recon_generation_net.conv.2, Total Parameters: 2
+2026-11-19 21:04:29,634 P07028 I: Module Name: recon_generation_net.conv.3, Total Parameters: 2
+2026-11-19 21:04:29,635 P07028 I: Total parameters: 18316286
+2026-11-19 21:04:29,695 P07028 I: pretrained weights loaded from C:/Users/deskESB036-4/mlvc/job-outputs/pretrained/mlvc-psnr-v1.ckpt
+2026-11-19 21:04:29,711 P07028 I: cuda: is_available() = True, device_count = 1
+2026-11-19 21:04:29,905 P07028 I: created train dataloader with batch_size = 1, n_workers = 4
+uv.exe : 2026-11-19 21:04:31,461 P07028 W: Unable to get AzureML/MLflow run context, not reporting metrics to AzureML
+At C:\Users\deskESB036-4\Downloads\lab.ps1:55 char:16
++ function Uvr { & uv run --no-sync @args }
++                ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-19 21:0...rics to AzureML:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-19 21:04:31,462 P07028 E: Exception in main:
+Traceback (most recent call last):
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 141, in main
+    rc = self.run()
+         ^^^^^^^^^^
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1667, in run
+    self.train()
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1588, in train
+    self.train_one_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 929, in train_one_epoch
+    super().train_one_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1365, in train_one_epoch
+    self.prepare_for_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 549, in prepare_for_epoch
+    self._check_flat_parameters_support(config)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 788, in _check_flat_parameters_support
+    raise ValueError(f"train.flat_parameters does not support {', '.join(names)}")
+ValueError: train.flat_parameters does not support train.compile_model: false
+[control] crashed (try 2) 11/19/2026 21:04:32
+2026-11-19 21:04:36,167 P09384 I: Running with config: {'log_dir': 'logs', 'torch': None, 'cuda': {'cudnn_benchmark': True}, 'model': {'i_frame': {'type': 'DMCI-6.0', 'N': 256, 'z_channel': 128, 'yuv420': True, 'ckpt_path': 'pretrained/DMCI-6.0.pth.tar'}, 'p_frame': {'type': 'DMC-6.1sb', 'yuv420': True, 'activation': 'LeakyReLU', 'input_offset': -0.5, 'feature_channels': 128, 'spatial_prior_channels': 256, 'memory_activation': 'identity', 'zero_init_residual': True, 'chunk_mode': 'gated', 'ffn_gate_activation': 'ReLU1', 'chain_feature_adaptors': True, 'ckpt_path': 'pretrained/mlvc-psnr-v1.ckpt'}, 'auxiliary': {'path': 'pretrained/', 'config': {'deqa_score': {'ckpt_name': 'DeQA-Score-Mix3'}}}, 'ckpt_path': None}, 'train': {'flat_parameters': True, 'use_backprop_checkpoints': True, 'n_epoch': 16, 'ckpt_per_epoch': 1, 'restart': True, 'dataset': {'path': 'data/OpenVidHD/sub64/description.json', 'patch_size': [256, 256], 'desired_length': 2000, 'target_resolution': 360, 'resampling_method': 'bilinear/0.15 box/0.15 bicubic/0.35 lanczos/0.35', 'max_frame_distance': 1, 'random_flip': True, 'n_workers': 4, 'n_frames': 4, 'batch_size': 1, 'brightness_aug': {'enabled': False, 'alpha_min': 1.0, 'alpha_max': 1.0, 'beta_min': 0.0, 'beta_max': 0.0, 'only_y_channel': True}}, 'learning_rate': 1e-05, 'grad_max_norm': 0.2, 'frame_grad_max_norm': 1.0, 'loss_lambdas': [1, 768], 'loss_type': 'total_rdc_psnr', 'bpp_loss_weight': 1.0, 'clear_grad_for_y_q': True, 'cascade': True, 'random_rate': True, 'transfer_weights': 'none', 'distortion_weights': [0.52, 1.33, 0.83], 'step_metric_frequency': 5, 'i_frame_dropout': 0.5, 'schedule': [], 'compile_model': False, 'compile_loss': False}, 'benchmark_test': {}, 'config': 'C:\\Users\\deskESB036-4\\mlvc\\code\\video\\configs\\train_video-mlvc.yaml', 'data_mount': 'C:\\Users\\deskESB036-4\\mlvc', 'checkpoints_mount': 'C:\\Users\\deskESB036-4\\mlvc\\job-outputs', 'aux_mounts': {}, 'seed': 0, 'mode': 'train', 'distributed_backend': None, 'distributed_timeout_minutes': None, 'reraise_exceptions': False, 'save_dir': 'checkpoints/control'}
+2026-11-19 21:04:36,189 P09384 I: Setting torch.backends.cudnn.benchmark = True
+2026-11-19 21:04:36,189 P09384 I: Setting torch._logging.set_logs from torch.logs='recompiles'
+2026-11-19 21:04:36,190 P09384 I: Setting random seed to 0
+2026-11-19 21:04:36,351 P09384 I: Module Name: decoder.up.conv.0, Total Parameters: 1180672
+2026-11-19 21:04:36,352 P09384 I: Module Name: y_prior_fusion.conv.0.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:36,352 P09384 I: Module Name: y_prior_fusion.conv.1.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:36,352 P09384 I: Module Name: y_prior_fusion.conv.2.ffn.0, Total Parameters: 591360
+2026-11-19 21:04:36,352 P09384 I: Module Name: y_prior_fusion.conv.0.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:36,352 P09384 I: Module Name: y_prior_fusion.conv.1.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:36,352 P09384 I: Module Name: y_prior_fusion.conv.2.ffn.2, Total Parameters: 295296
+2026-11-19 21:04:36,352 P09384 I: Module Name: encoder.down, Total Parameters: 295040
+2026-11-19 21:04:36,352 P09384 I: Module Name: feature_extractor.conv1.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: feature_extractor.conv1.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: feature_extractor.conv2.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: feature_extractor.conv2.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: feature_extractor.conv2.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: feature_extractor.conv2.3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: encoder.conv2.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: encoder.conv2.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: encoder.conv3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: temporal_prior_encoder.conv.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: y_spatial_prior.conv.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: y_spatial_prior.conv.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: decoder.conv1.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: decoder.conv1.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: decoder.conv1.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: recon_generation_net.conv.0.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: recon_generation_net.conv.1.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,352 P09384 I: Module Name: recon_generation_net.conv.2.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,353 P09384 I: Module Name: recon_generation_net.conv.3.ffn.0, Total Parameters: 263168
+2026-11-19 21:04:36,353 P09384 I: Module Name: temporal_prior_encoder.down, Total Parameters: 262400
+2026-11-19 21:04:36,353 P09384 I: Module Name: feature_adaptor_i.conv.ffn.0, Total Parameters: 262144
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_prior_fusion.conv.0.dc.0, Total Parameters: 147840
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_prior_fusion.conv.0.dc.3, Total Parameters: 147840
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_prior_fusion.conv.1.dc.0, Total Parameters: 147840
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_prior_fusion.conv.1.dc.3, Total Parameters: 147840
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_prior_fusion.conv.2.dc.0, Total Parameters: 147840
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_prior_fusion.conv.2.dc.3, Total Parameters: 147840
+2026-11-19 21:04:36,353 P09384 I: Module Name: feature_extractor.conv1.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: feature_extractor.conv1.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: feature_extractor.conv2.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: feature_extractor.conv2.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: feature_extractor.conv2.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: feature_extractor.conv2.3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: encoder.conv2.0.adaptor, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: encoder.conv2.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: encoder.conv2.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: encoder.conv3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: temporal_prior_encoder.conv.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_spatial_prior.conv.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_spatial_prior.conv.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: decoder.conv1.0.adaptor, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: decoder.conv1.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: decoder.conv1.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: decoder.conv1.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: recon_generation_net.conv.0.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: recon_generation_net.conv.1.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: recon_generation_net.conv.2.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: recon_generation_net.conv.3.ffn.2, Total Parameters: 131328
+2026-11-19 21:04:36,353 P09384 I: Module Name: feature_adaptor_i.conv.ffn.2, Total Parameters: 131072
+2026-11-19 21:04:36,353 P09384 I: Module Name: decoder.conv2, Total Parameters: 98688
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_prior_fusion.conv.3, Total Parameters: 98560
+2026-11-19 21:04:36,353 P09384 I: Module Name: y_spatial_prior.conv.0.adaptor, Total Parameters: 98560
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_encoder.conv.0.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_encoder.conv.1.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_encoder.conv.2.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_encoder.conv.3.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_decoder.conv.0.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_decoder.conv.0.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_decoder.conv.1.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_decoder.conv.1.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_decoder.conv.2.up.conv.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_decoder.conv.2.conv.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: hyper_decoder.conv.3.ffn.0, Total Parameters: 66048
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv1.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv1.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv1.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv1.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv2.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv2.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv2.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv2.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv2.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv2.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv2.3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: feature_extractor.conv2.3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: encoder.conv2.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: encoder.conv2.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: encoder.conv2.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: encoder.conv2.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: encoder.conv3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: encoder.conv3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: temporal_prior_encoder.conv.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: temporal_prior_encoder.conv.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: y_spatial_prior.conv.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: y_spatial_prior.conv.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: y_spatial_prior.conv.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,354 P09384 I: Module Name: y_spatial_prior.conv.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: decoder.conv1.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: decoder.conv1.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: decoder.conv1.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: decoder.conv1.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: decoder.conv1.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: decoder.conv1.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.0.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.0.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.1.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.1.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.2.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.2.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.3.dc.0, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.3.dc.3, Total Parameters: 65792
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_encoder.conv.1.down, Total Parameters: 65664
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_encoder.conv.2.down, Total Parameters: 65664
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_encoder.conv.3.down, Total Parameters: 65664
+2026-11-19 21:04:36,355 P09384 I: Module Name: feature_adaptor_i.conv.dc.0, Total Parameters: 65536
+2026-11-19 21:04:36,355 P09384 I: Module Name: feature_adaptor_i.conv.dc.3, Total Parameters: 65536
+2026-11-19 21:04:36,355 P09384 I: Module Name: , Total Parameters: 64512
+2026-11-19 21:04:36,355 P09384 I: Module Name: encoder.conv1, Total Parameters: 49408
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.head, Total Parameters: 49344
+2026-11-19 21:04:36,355 P09384 I: Module Name: feature_adaptor_i.conv.adaptor, Total Parameters: 49152
+2026-11-19 21:04:36,355 P09384 I: Module Name: feature_extractor.conv1.0.adaptor, Total Parameters: 33024
+2026-11-19 21:04:36,355 P09384 I: Module Name: recon_generation_net.conv.0.adaptor, Total Parameters: 33024
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_encoder.conv.0.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_encoder.conv.1.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_encoder.conv.2.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_encoder.conv.3.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_decoder.conv.0.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_decoder.conv.1.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_decoder.conv.2.conv.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: hyper_decoder.conv.3.ffn.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: y_spatial_prior.conv.2, Total Parameters: 32896
+2026-11-19 21:04:36,355 P09384 I: Module Name: bit_estimator_z.f1, Total Parameters: 27648
+2026-11-19 21:04:36,356 P09384 I: Module Name: bit_estimator_z.f2, Total Parameters: 27648
+2026-11-19 21:04:36,356 P09384 I: Module Name: bit_estimator_z.f3, Total Parameters: 27648
+2026-11-19 21:04:36,356 P09384 I: Module Name: bit_estimator_z.f4, Total Parameters: 18432
+2026-11-19 21:04:36,356 P09384 I: Module Name: feature_adaptor_p.conv, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_encoder.conv.0.dc.0, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_encoder.conv.0.dc.3, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_encoder.conv.1.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_encoder.conv.1.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_encoder.conv.2.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_encoder.conv.2.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_encoder.conv.3.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_encoder.conv.3.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_decoder.conv.0.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_decoder.conv.0.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_decoder.conv.1.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_decoder.conv.1.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_decoder.conv.2.conv.dc.0, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_decoder.conv.2.conv.dc.3, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_decoder.conv.3.dc.0, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: hyper_decoder.conv.3.dc.3, Total Parameters: 16512
+2026-11-19 21:04:36,356 P09384 I: Module Name: y_prior_fusion.conv.0.dc.2, Total Parameters: 3840
+2026-11-19 21:04:36,356 P09384 I: Module Name: y_prior_fusion.conv.1.dc.2, Total Parameters: 3840
+2026-11-19 21:04:36,356 P09384 I: Module Name: y_prior_fusion.conv.2.dc.2, Total Parameters: 3840
+2026-11-19 21:04:36,356 P09384 I: Module Name: feature_extractor.conv1.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: feature_extractor.conv1.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: feature_extractor.conv2.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: feature_extractor.conv2.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: feature_extractor.conv2.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: feature_extractor.conv2.3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: encoder.conv2.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: encoder.conv2.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: encoder.conv3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: temporal_prior_encoder.conv.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,356 P09384 I: Module Name: y_spatial_prior.conv.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: y_spatial_prior.conv.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: decoder.conv1.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: decoder.conv1.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: decoder.conv1.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: recon_generation_net.conv.0.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: recon_generation_net.conv.1.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: recon_generation_net.conv.2.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: recon_generation_net.conv.3.dc.2, Total Parameters: 2560
+2026-11-19 21:04:36,357 P09384 I: Module Name: feature_adaptor_i.conv.dc.2, Total Parameters: 2304
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_encoder.conv.0.dc.2, Total Parameters: 1280
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_encoder.conv.1.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_encoder.conv.2.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_encoder.conv.3.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_decoder.conv.0.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_decoder.conv.1.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_decoder.conv.2.conv.dc.2, Total Parameters: 1280
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_decoder.conv.3.dc.2, Total Parameters: 1280
+2026-11-19 21:04:36,357 P09384 I: Module Name: feature_adaptor_i.conv, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: feature_extractor.conv1.0, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: feature_extractor.conv1.1, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: feature_extractor.conv2.0, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: feature_extractor.conv2.1, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: feature_extractor.conv2.2, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: feature_extractor.conv2.3, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: encoder.conv2.0, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: encoder.conv2.1, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: encoder.conv3, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_encoder.conv.0, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_encoder.conv.1.conv, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_encoder.conv.2.conv, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_encoder.conv.3.conv, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_decoder.conv.0.conv, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_decoder.conv.1.conv, Total Parameters: 2
+2026-11-19 21:04:36,357 P09384 I: Module Name: hyper_decoder.conv.2.conv, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: hyper_decoder.conv.3, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: temporal_prior_encoder.conv, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: y_prior_fusion.conv.0, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: y_prior_fusion.conv.1, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: y_prior_fusion.conv.2, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: y_spatial_prior.conv.0, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: y_spatial_prior.conv.1, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: decoder.conv1.0, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: decoder.conv1.1, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: decoder.conv1.2, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: recon_generation_net.conv.0, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: recon_generation_net.conv.1, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: recon_generation_net.conv.2, Total Parameters: 2
+2026-11-19 21:04:36,358 P09384 I: Module Name: recon_generation_net.conv.3, Total Parameters: 2
+2026-11-19 21:04:36,359 P09384 I: Total parameters: 18316286
+2026-11-19 21:04:36,419 P09384 I: pretrained weights loaded from C:/Users/deskESB036-4/mlvc/job-outputs/pretrained/mlvc-psnr-v1.ckpt
+2026-11-19 21:04:36,435 P09384 I: cuda: is_available() = True, device_count = 1
+2026-11-19 21:04:36,623 P09384 I: created train dataloader with batch_size = 1, n_workers = 4
+uv.exe : 2026-11-19 21:04:38,162 P09384 W: Unable to get AzureML/MLflow run context, not reporting metrics to AzureML
+At C:\Users\deskESB036-4\Downloads\lab.ps1:55 char:16
++ function Uvr { & uv run --no-sync @args }
++                ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-19 21:0...rics to AzureML:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-11-19 21:04:38,162 P09384 E: Exception in main:
+Traceback (most recent call last):
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 141, in main
+    rc = self.run()
+         ^^^^^^^^^^
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1667, in run
+    self.train()
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1588, in train
+    self.train_one_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 929, in train_one_epoch
+    super().train_one_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 1365, in train_one_epoch
+    self.prepare_for_epoch(epoch)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 549, in prepare_for_epoch
+    self._check_flat_parameters_support(config)
+  File "C:\Users\deskESB036-4\mlvc\code\video\train_video.py", line 788, in _check_flat_parameters_support
+    raise ValueError(f"train.flat_parameters does not support {', '.join(names)}")
+ValueError: train.flat_parameters does not support train.compile_model: false
+[control] crashed (try 3) 11/19/2026 21:04:38
