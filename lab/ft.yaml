@@ -1,6 +1,7 @@
 seed: 0
 train.compile_model: false
 train.compile_loss: false
+train.flat_parameters: false
 train.ckpt_per_epoch: 1
 train.restart: true
 train.schedule: []
