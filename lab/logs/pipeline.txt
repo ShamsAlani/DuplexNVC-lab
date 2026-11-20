@@ -311,3 +311,5 @@ data ready 11/20/2026 13:26:46
 sequences listed 5411, fully extracted 0
 STOPPED: no usable clips, see prep.txt
 start 11/20/2026 13:30:48
+data ready 11/20/2026 21:21:00
+sequences listed 5411, fully extracted 5411
