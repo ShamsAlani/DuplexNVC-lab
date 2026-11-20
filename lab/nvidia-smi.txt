@@ -1,4 +1,4 @@
-Thu Nov 19 22:31:54 2026       
+Fri Nov 20 13:09:16 2026       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |
 |-----------------------------------------+------------------------+----------------------+
@@ -6,8 +6,8 @@ Thu Nov 19 22:31:54 2026
 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
-|   0  NVIDIA GeForce RTX 3060 Ti   WDDM  |   00000000:02:00.0 Off |                  N/A |
-|  0%   54C    P8              8W /  200W |     496MiB /   8192MiB |      0%      Default |
+|   0  NVIDIA GeForce RTX 3060 Ti   WDDM  |   00000000:02:00.0  On |                  N/A |
+|  0%   36C    P8             10W /  200W |     558MiB /   8192MiB |      3%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          
@@ -18,6 +18,7 @@ Thu Nov 19 22:31:54 2026
 |=========================================================================================|
 |    0   N/A  N/A      1868    C+G   ....Search_cw5n1h2txyewy\SearchApp.exe      N/A      |
 |    0   N/A  N/A     11756    C+G   ...CBS_cw5n1h2txyewy\TextInputHost.exe      N/A      |
+|    0   N/A  N/A     12132    C+G   ...ekyb3d8bbwe\PhoneExperienceHost.exe      N/A      |
 |    0   N/A  N/A     15348    C+G   ...crosoft\Edge\Application\msedge.exe      N/A      |
 |    0   N/A  N/A     16896    C+G   ...on\157.0.4341.60\msedgewebview2.exe      N/A      |
 |    0   N/A  N/A     17016    C+G   C:\Windows\explorer.exe                     N/A      |
