@@ -1,1 +1,1 @@
-11/20/2026 13:09:31 | data ready | free GB: 640
+11/20/2026 13:14:24 | STOPPED - training crashes | free GB: 638
