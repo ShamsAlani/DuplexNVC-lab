@@ -313,3 +313,4 @@ STOPPED: no usable clips, see prep.txt
 start 11/20/2026 13:30:48
 data ready 11/20/2026 21:21:00
 sequences listed 5411, fully extracted 5411
+both at epoch 2  11/20/2026 21:38:54
