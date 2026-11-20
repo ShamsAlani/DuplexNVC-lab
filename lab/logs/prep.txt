@@ -57,3 +57,54 @@ line 449, in result
 line 401, in __get_result
     raise self._exception
 FileNotFoundError: [WinError 2] The system cannot find the file specified
+videos found 10710 sequences kept 5411
+2026-11-20 13:26:26,226 P22252 I: Running with config: {'log_dir': 'logs', 'seed': [0], 'process_count': 16, 'frame_sequence_extractor': {'source_dir': 'C:/Users/deskESB036-4/mlvc/data/OpenVidHD/raw', 'frame_sequences_csv': 'C:/Users/deskESB036-4/mlvc/data/OpenVidHD/sub64.csv', 'compression': {'quality': 90, 'lossless': False}, 'processed_clip_list': 'processed_clip_list.txt', 'auto_restart': True, 'initial_processed_clip_list': '', 'output_dir': 'C:/Users/deskESB036-4/mlvc/data/OpenVidHD/sub64'}, 'config': 'C:\\Users\\deskESB036-4\\mlvc\\code\\video\\configs\\dataset\\extract_frame_sequences.yaml', 'data_mount': 'C:\\Users\\deskESB036-4\\mlvc', 'checkpoints_mount': 'C:\\Users\\deskESB036-4\\mlvc\\job-outputs', 'aux_mounts': {}, 'distributed_backend': None, 'distributed_timeout_minutes': None, 'reraise_exceptions': False, 'save_dir': 'C:\\Users\\deskESB036-4\\mlvc\\data\\OpenVidHD\\sub64'}
+2026-11-20 13:26:26,253 P22252 I: Setting torch._logging.set_logs from torch.logs='recompiles'
+2026-11-20 13:26:26,254 P22252 I: Setting random seed to 0
+2026-11-20 13:26:26,294 P22252 I: Extracting 5411 sequences from 4669 clips
+2026-11-20 13:26:26,294 P22252 I: Running 16 ffmpeg processes in parallel
+uv.exe : 2026-11-20 13:26:42,713 P22252 E: Exception in main:
+At C:\Users\deskESB036-4\Downloads\lab.ps1:55 char:16
++ function Uvr { & uv run --no-sync @args }
++                ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-11-20 13:2...eption in main::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File 
+"C:\Users\deskESB036-4\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\process.py", 
+line 264, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deskESB036-4\mlvc\code\video\extract_frame_sequences.py", line 274, in _extract_frame_sequences
+    next(reader)
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\datasets\ffmpeg_dataset.py", line 113, in __next__
+    self._process_eof(ffmpeg, True)
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\datasets\ffmpeg_dataset.py", line 98, in _process_eof
+    raise OSError(error)
+OSError: C:/Users/deskESB036-4/mlvc/data/OpenVidHD/raw\ocCsQpnjNrw_35_0to154.mp4: ffmpeg exit code 2880417800, after 0 
+frames
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\deskESB036-4\mlvc\code\video\src\utils\app.py", line 141, in main
+    rc = self.run()
+         ^^^^^^^^^^
+  File "C:\Users\deskESB036-4\mlvc\code\video\extract_frame_sequences.py", line 140, in run
+    filename = f.result()
+               ^^^^^^^^^^
+  File 
+"C:\Users\deskESB036-4\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", 
+line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File 
+"C:\Users\deskESB036-4\AppData\Roaming\uv\python\cpython-3.12-windows-x86_64-none\Lib\concurrent\futures\_base.py", 
+line 401, in __get_result
+    raise self._exception
+OSError: C:/Users/deskESB036-4/mlvc/data/OpenVidHD/raw\ocCsQpnjNrw_35_0to154.mp4: ffmpeg exit code 2880417800, after 0 
+frames
