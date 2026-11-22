@@ -425,3 +425,4 @@ start 11/22/2026 18:08:14
 data ready 11/22/2026 18:08:33
 sequences listed 5411, fully extracted 5411
 Queue A at epoch 2  11/22/2026 18:24:56
+Queue A at epoch 4  11/22/2026 18:40:53
