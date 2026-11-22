@@ -417,3 +417,8 @@ ALL DONE 11/21/2026 23:40:35
 start 11/22/2026 18:02:39
 data ready 11/22/2026 18:02:55
 sequences listed 5411, fully extracted 5411
+v1 control/b1 kept as v1_control, v1_b1 (repeated samples); retraining with a new seed per chunk
+control FAILED at 2
+b1 FAILED at 2
+STOPPED: every run crashes, see the run logs 11/22/2026 18:04:05
+start 11/22/2026 18:08:14
