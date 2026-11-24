@@ -1,4 +1,4 @@
-Tue Nov 24 22:56:48 2026       
+Tue Nov 24 23:28:46 2026       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |
 |-----------------------------------------+------------------------+----------------------+
@@ -6,8 +6,8 @@ Tue Nov 24 22:56:48 2026
 | Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
-|   0  NVIDIA GeForce RTX 3060 Ti   WDDM  |   00000000:02:00.0 Off |                  N/A |
-| 42%   58C    P3             38W /  200W |     498MiB /   8192MiB |      0%      Default |
+|   0  NVIDIA GeForce RTX 3060 Ti   WDDM  |   00000000:02:00.0  On |                  N/A |
+| 41%   57C    P3             30W /  200W |     502MiB /   8192MiB |      0%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          
@@ -16,6 +16,7 @@ Tue Nov 24 22:56:48 2026
 |  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
 |        ID   ID                                                               Usage      |
 |=========================================================================================|
+|    0   N/A  N/A      7752    C+G   ...\Copilot\Application\copilotapp.exe      N/A      |
 |    0   N/A  N/A     10300    C+G   ...5n1h2txyewy\ShellExperienceHost.exe      N/A      |
 |    0   N/A  N/A     12196    C+G   ...on\157.0.4341.60\msedgewebview2.exe      N/A      |
 |    0   N/A  N/A     12380    C+G   ...crosoft\Edge\Application\msedge.exe      N/A      |
@@ -24,6 +25,5 @@ Tue Nov 24 22:56:48 2026
 |    0   N/A  N/A     17308    C+G   ...crosoft\Edge\Application\msedge.exe      N/A      |
 |    0   N/A  N/A     18536    C+G   C:\Windows\explorer.exe                     N/A      |
 |    0   N/A  N/A     19928    C+G   ....Search_cw5n1h2txyewy\SearchApp.exe      N/A      |
-|    0   N/A  N/A     20692    C+G   ...\Copilot\Application\copilotapp.exe      N/A      |
 |    0   N/A  N/A     22576    C+G   ...CBS_cw5n1h2txyewy\TextInputHost.exe      N/A      |
 +-----------------------------------------------------------------------------------------+
