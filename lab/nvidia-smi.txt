@@ -1,4 +1,4 @@
-Thu Nov 26 07:44:52 2026       
+Thu Nov 26 07:53:11 2026       
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |
 |-----------------------------------------+------------------------+----------------------+
@@ -7,7 +7,7 @@ Thu Nov 26 07:44:52 2026
 |                                         |                        |               MIG M. |
 |=========================================+========================+======================|
 |   0  NVIDIA GeForce RTX 3060 Ti   WDDM  |   00000000:02:00.0 Off |                  N/A |
-| 42%   57C    P3             38W /  200W |     498MiB /   8192MiB |      0%      Default |
+| 41%   58C    P3             40W /  200W |     506MiB /   8192MiB |      0%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
                                                                                          
@@ -19,6 +19,7 @@ Thu Nov 26 07:44:52 2026
 |    0   N/A  N/A     10300    C+G   ...5n1h2txyewy\ShellExperienceHost.exe      N/A      |
 |    0   N/A  N/A     12196    C+G   ...on\157.0.4341.60\msedgewebview2.exe      N/A      |
 |    0   N/A  N/A     12380    C+G   ...crosoft\Edge\Application\msedge.exe      N/A      |
+|    0   N/A  N/A     12448    C+G   ...ekyb3d8bbwe\PhoneExperienceHost.exe      N/A      |
 |    0   N/A  N/A     12876    C+G   ....Search_cw5n1h2txyewy\SearchApp.exe      N/A      |
 |    0   N/A  N/A     17308    C+G   ...crosoft\Edge\Application\msedge.exe      N/A      |
 |    0   N/A  N/A     18536    C+G   C:\Windows\explorer.exe                     N/A      |
