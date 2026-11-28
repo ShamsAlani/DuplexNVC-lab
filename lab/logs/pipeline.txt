@@ -726,3 +726,6 @@ Run 6 (b1) at epoch 398  11/26/2026 16:01:58
 Run 6 (b1) at epoch 400  11/26/2026 16:10:19
 ALL DONE 11/26/2026 16:10:54
 recipe 2 start 11/28/2026 18:59:03
+memtest: 32 frames fit, 1.73 s per step, about 28.8 h for the 3 runs  11/28/2026 7:06:31 PM
+memtest: 24 frames fit, 1.29 s per step, about 21.5 h for the 3 runs  11/28/2026 7:11:25 PM
+recipe 2 start 11/28/2026 19:14:13
