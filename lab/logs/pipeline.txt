@@ -731,3 +731,4 @@ memtest: 24 frames fit, 1.29 s per step, about 21.5 h for the 3 runs  11/28/2026
 recipe 2 start 11/28/2026 19:14:13
 R2 16f control+b1: 16-frame clips, batch 1, 1000 samples per epoch, 20 epochs, lr 5e-6 (epochs 1-10) then 1e-6 (11-20)  11/28/2026 19:15:01
 R2 16f control+b1 at epoch 2  11/28/2026 20:15:17
+R2 16f control+b1 at epoch 4  11/28/2026 21:16:21
