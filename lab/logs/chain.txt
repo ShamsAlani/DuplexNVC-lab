@@ -1,1 +1,3 @@
 released        64 frames x 4 clips, QP 26: PSNR-Y 38.32 dB, 123 kbps, growth 0.64, max|mem| 7.0
+r2_control e2   PSNR-Y 35.72 dB (-2.59 vs released), 316 kbps (+156 %), growth 4.01 (released 0.64), max|mem| 7.1  UNSTABLE
+r2_b1 e2        PSNR-Y 35.28 dB (-3.03 vs released), 157 kbps (+27 %), growth 0.76 (released 0.64), max|mem| 1.0  stable
